@@ -1,0 +1,3012 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/brian/.nvm/versions/node/v6.11.1/bin/node',
+1 verbose cli   '/Users/brian/.nvm/versions/node/v6.11.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jsdom' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData jsdom
+8 silly fetchNamedPackageData jsdom
+9 silly mapToRegistry name jsdom
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://34.206.52.14:4873/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'jsdom',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'jsdom',
+12 silly mapToRegistry   name: 'jsdom',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://34.206.52.14:4873/jsdom
+14 verbose request uri http://34.206.52.14:4873/jsdom
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:45:26 PM
+17 verbose request using bearer token for auth
+18 verbose request id 07a43871e99ad919
+19 verbose etag "c30f0b35923f532dcc1c51df03505cc1"
+20 http request GET http://34.206.52.14:4873/jsdom
+21 http 304 http://34.206.52.14:4873/jsdom
+22 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+22 verbose headers   etag: '"c30f0b35923f532dcc1c51df03505cc1"',
+22 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+22 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+22 verbose headers   connection: 'keep-alive' }
+23 silly get cb [ 304,
+23 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+23 silly get     etag: '"c30f0b35923f532dcc1c51df03505cc1"',
+23 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+23 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+23 silly get     connection: 'keep-alive' } ]
+24 verbose etag http://34.206.52.14:4873/jsdom from cache
+25 verbose get saving jsdom to /Users/brian/.npm/34.206.52.14_4873/jsdom/.cache.json
+26 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule jsdom@11.1.0 checking installable status
+40 silly cache add args [ 'jsdom', null ]
+41 verbose cache add spec jsdom
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'jsdom',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'jsdom',
+42 silly cache add   name: 'jsdom',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed jsdom@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for jsdom
+45 info addNameTag [ 'jsdom', 'latest' ]
+46 silly mapToRegistry name jsdom
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry http://34.206.52.14:4873/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'jsdom',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'jsdom',
+49 silly mapToRegistry   name: 'jsdom',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri http://34.206.52.14:4873/jsdom
+51 verbose addNameTag registry:http://34.206.52.14:4873/jsdom not in flight; fetching
+52 verbose get http://34.206.52.14:4873/jsdom not expired, no request
+53 silly addNameTag next cb for jsdom with tag latest
+54 silly addNamed jsdom@11.1.0
+55 verbose addNamed "11.1.0" is a plain semver version for jsdom
+56 silly cache afterAdd jsdom@11.1.0
+57 verbose afterAdd /Users/brian/.npm/jsdom/11.1.0/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/brian/.npm/jsdom/11.1.0/package/package.json written
+60 silly fetchNamedPackageData abab
+61 silly mapToRegistry name abab
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry http://34.206.52.14:4873/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'abab',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'abab',
+64 silly mapToRegistry   name: 'abab',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri http://34.206.52.14:4873/abab
+66 silly fetchNamedPackageData acorn
+67 silly mapToRegistry name acorn
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry http://34.206.52.14:4873/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'acorn',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'acorn',
+70 silly mapToRegistry   name: 'acorn',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri http://34.206.52.14:4873/acorn
+72 silly fetchNamedPackageData acorn-globals
+73 silly mapToRegistry name acorn-globals
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry http://34.206.52.14:4873/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'acorn-globals',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'acorn-globals',
+76 silly mapToRegistry   name: 'acorn-globals',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri http://34.206.52.14:4873/acorn-globals
+78 silly fetchNamedPackageData array-equal
+79 silly mapToRegistry name array-equal
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry http://34.206.52.14:4873/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'array-equal',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'array-equal',
+82 silly mapToRegistry   name: 'array-equal',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri http://34.206.52.14:4873/array-equal
+84 silly fetchNamedPackageData content-type-parser
+85 silly mapToRegistry name content-type-parser
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry http://34.206.52.14:4873/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'content-type-parser',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'content-type-parser',
+88 silly mapToRegistry   name: 'content-type-parser',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri http://34.206.52.14:4873/content-type-parser
+90 silly fetchNamedPackageData cssom
+91 silly mapToRegistry name cssom
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry http://34.206.52.14:4873/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'cssom',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'cssom',
+94 silly mapToRegistry   name: 'cssom',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri http://34.206.52.14:4873/cssom
+96 silly fetchNamedPackageData cssstyle
+97 silly mapToRegistry name cssstyle
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry http://34.206.52.14:4873/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'cssstyle',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'cssstyle',
+100 silly mapToRegistry   name: 'cssstyle',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri http://34.206.52.14:4873/cssstyle
+102 silly fetchNamedPackageData escodegen
+103 silly mapToRegistry name escodegen
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry http://34.206.52.14:4873/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'escodegen',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   escapedName: 'escodegen',
+106 silly mapToRegistry   name: 'escodegen',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri http://34.206.52.14:4873/escodegen
+108 silly fetchNamedPackageData html-encoding-sniffer
+109 silly mapToRegistry name html-encoding-sniffer
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry http://34.206.52.14:4873/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'html-encoding-sniffer',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   escapedName: 'html-encoding-sniffer',
+112 silly mapToRegistry   name: 'html-encoding-sniffer',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri http://34.206.52.14:4873/html-encoding-sniffer
+114 silly fetchNamedPackageData nwmatcher
+115 silly mapToRegistry name nwmatcher
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry http://34.206.52.14:4873/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'nwmatcher',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   escapedName: 'nwmatcher',
+118 silly mapToRegistry   name: 'nwmatcher',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri http://34.206.52.14:4873/nwmatcher
+120 silly fetchNamedPackageData parse5
+121 silly mapToRegistry name parse5
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry http://34.206.52.14:4873/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'parse5',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   escapedName: 'parse5',
+124 silly mapToRegistry   name: 'parse5',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri http://34.206.52.14:4873/parse5
+126 silly fetchNamedPackageData pn
+127 silly mapToRegistry name pn
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry http://34.206.52.14:4873/
+130 silly mapToRegistry data Result {
+130 silly mapToRegistry   raw: 'pn',
+130 silly mapToRegistry   scope: null,
+130 silly mapToRegistry   escapedName: 'pn',
+130 silly mapToRegistry   name: 'pn',
+130 silly mapToRegistry   rawSpec: '',
+130 silly mapToRegistry   spec: 'latest',
+130 silly mapToRegistry   type: 'tag' }
+131 silly mapToRegistry uri http://34.206.52.14:4873/pn
+132 silly fetchNamedPackageData request-promise-native
+133 silly mapToRegistry name request-promise-native
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry http://34.206.52.14:4873/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'request-promise-native',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   escapedName: 'request-promise-native',
+136 silly mapToRegistry   name: 'request-promise-native',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri http://34.206.52.14:4873/request-promise-native
+138 silly fetchNamedPackageData sax
+139 silly mapToRegistry name sax
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry http://34.206.52.14:4873/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'sax',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   escapedName: 'sax',
+142 silly mapToRegistry   name: 'sax',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri http://34.206.52.14:4873/sax
+144 silly fetchNamedPackageData symbol-tree
+145 silly mapToRegistry name symbol-tree
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry http://34.206.52.14:4873/
+148 silly mapToRegistry data Result {
+148 silly mapToRegistry   raw: 'symbol-tree',
+148 silly mapToRegistry   scope: null,
+148 silly mapToRegistry   escapedName: 'symbol-tree',
+148 silly mapToRegistry   name: 'symbol-tree',
+148 silly mapToRegistry   rawSpec: '',
+148 silly mapToRegistry   spec: 'latest',
+148 silly mapToRegistry   type: 'tag' }
+149 silly mapToRegistry uri http://34.206.52.14:4873/symbol-tree
+150 silly fetchNamedPackageData webidl-conversions
+151 silly mapToRegistry name webidl-conversions
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry http://34.206.52.14:4873/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'webidl-conversions',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   escapedName: 'webidl-conversions',
+154 silly mapToRegistry   name: 'webidl-conversions',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri http://34.206.52.14:4873/webidl-conversions
+156 silly fetchNamedPackageData whatwg-encoding
+157 silly mapToRegistry name whatwg-encoding
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry http://34.206.52.14:4873/
+160 silly mapToRegistry data Result {
+160 silly mapToRegistry   raw: 'whatwg-encoding',
+160 silly mapToRegistry   scope: null,
+160 silly mapToRegistry   escapedName: 'whatwg-encoding',
+160 silly mapToRegistry   name: 'whatwg-encoding',
+160 silly mapToRegistry   rawSpec: '',
+160 silly mapToRegistry   spec: 'latest',
+160 silly mapToRegistry   type: 'tag' }
+161 silly mapToRegistry uri http://34.206.52.14:4873/whatwg-encoding
+162 silly fetchNamedPackageData whatwg-url
+163 silly mapToRegistry name whatwg-url
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry http://34.206.52.14:4873/
+166 silly mapToRegistry data Result {
+166 silly mapToRegistry   raw: 'whatwg-url',
+166 silly mapToRegistry   scope: null,
+166 silly mapToRegistry   escapedName: 'whatwg-url',
+166 silly mapToRegistry   name: 'whatwg-url',
+166 silly mapToRegistry   rawSpec: '',
+166 silly mapToRegistry   spec: 'latest',
+166 silly mapToRegistry   type: 'tag' }
+167 silly mapToRegistry uri http://34.206.52.14:4873/whatwg-url
+168 silly fetchNamedPackageData xml-name-validator
+169 silly mapToRegistry name xml-name-validator
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry http://34.206.52.14:4873/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: 'xml-name-validator',
+172 silly mapToRegistry   scope: null,
+172 silly mapToRegistry   escapedName: 'xml-name-validator',
+172 silly mapToRegistry   name: 'xml-name-validator',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri http://34.206.52.14:4873/xml-name-validator
+174 verbose request uri http://34.206.52.14:4873/abab
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 10:45:27 PM
+177 verbose request using bearer token for auth
+178 verbose etag "657f90b41eaaa3252270ed2326241495"
+179 http request GET http://34.206.52.14:4873/abab
+180 verbose request uri http://34.206.52.14:4873/acorn-globals
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 10:45:27 PM
+183 verbose request using bearer token for auth
+184 verbose etag "0cf7199ab5b9349e8f5c55d40e74e5d8"
+185 http request GET http://34.206.52.14:4873/acorn-globals
+186 verbose request uri http://34.206.52.14:4873/array-equal
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 10:45:27 PM
+189 verbose request using bearer token for auth
+190 verbose etag "69ad57f4de49369c541cb6d41c1e1f02"
+191 http request GET http://34.206.52.14:4873/array-equal
+192 verbose request uri http://34.206.52.14:4873/content-type-parser
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 10:45:27 PM
+195 verbose request using bearer token for auth
+196 verbose etag "325c6adb8cfa727d936ab86cb7a4b007"
+197 http request GET http://34.206.52.14:4873/content-type-parser
+198 verbose request uri http://34.206.52.14:4873/cssom
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 10:45:27 PM
+201 verbose request using bearer token for auth
+202 verbose etag "0c9740de88eaa031c0e15ccf29c29b04"
+203 http request GET http://34.206.52.14:4873/cssom
+204 verbose request uri http://34.206.52.14:4873/acorn
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 10:45:27 PM
+207 verbose request using bearer token for auth
+208 verbose etag "ad7579c4edc4d3f3453e156dbc4d23cf"
+209 http request GET http://34.206.52.14:4873/acorn
+210 verbose request uri http://34.206.52.14:4873/cssstyle
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 10:45:27 PM
+213 verbose request using bearer token for auth
+214 verbose etag "085a6ab053c21ea664dc05c9cbd9c848"
+215 http request GET http://34.206.52.14:4873/cssstyle
+216 verbose request uri http://34.206.52.14:4873/nwmatcher
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 10:45:27 PM
+219 verbose request using bearer token for auth
+220 verbose etag "0cf74382924d994a2ad1cdcd9f66a437"
+221 http request GET http://34.206.52.14:4873/nwmatcher
+222 verbose request uri http://34.206.52.14:4873/escodegen
+223 verbose request no auth needed
+224 info attempt registry request try #1 at 10:45:27 PM
+225 verbose request using bearer token for auth
+226 verbose etag "b3329c6460936f8984e46594dd8169e2"
+227 http request GET http://34.206.52.14:4873/escodegen
+228 verbose request uri http://34.206.52.14:4873/html-encoding-sniffer
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 10:45:27 PM
+231 verbose request using bearer token for auth
+232 verbose etag "479d99a69507123cc0ac998e96835ed2"
+233 http request GET http://34.206.52.14:4873/html-encoding-sniffer
+234 verbose request uri http://34.206.52.14:4873/request-promise-native
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 10:45:27 PM
+237 verbose request using bearer token for auth
+238 verbose etag "92720b60ed2796019b4f149532401dd0"
+239 http request GET http://34.206.52.14:4873/request-promise-native
+240 verbose request uri http://34.206.52.14:4873/pn
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 10:45:27 PM
+243 verbose request using bearer token for auth
+244 verbose etag "be1563d7056c5bf34946044d3b5ce11d"
+245 http request GET http://34.206.52.14:4873/pn
+246 verbose request uri http://34.206.52.14:4873/symbol-tree
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 10:45:27 PM
+249 verbose request using bearer token for auth
+250 verbose etag "156819593de7653e0be2acb46b2bd72f"
+251 http request GET http://34.206.52.14:4873/symbol-tree
+252 verbose request uri http://34.206.52.14:4873/parse5
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 10:45:27 PM
+255 verbose request using bearer token for auth
+256 verbose etag "b032c67508001963b61ed276e63a1c45"
+257 http request GET http://34.206.52.14:4873/parse5
+258 verbose request uri http://34.206.52.14:4873/whatwg-encoding
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 10:45:27 PM
+261 verbose request using bearer token for auth
+262 verbose etag "2a30fbff7aac3a8574b51194798980c7"
+263 http request GET http://34.206.52.14:4873/whatwg-encoding
+264 verbose request uri http://34.206.52.14:4873/sax
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 10:45:27 PM
+267 verbose request using bearer token for auth
+268 verbose etag "34afc1126bd1026a3bb12bdef6d06776"
+269 http request GET http://34.206.52.14:4873/sax
+270 verbose request uri http://34.206.52.14:4873/webidl-conversions
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 10:45:27 PM
+273 verbose request using bearer token for auth
+274 verbose etag "9bc06ec202ca1650179f1d564b699290"
+275 http request GET http://34.206.52.14:4873/webidl-conversions
+276 verbose request uri http://34.206.52.14:4873/xml-name-validator
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 10:45:27 PM
+279 verbose request using bearer token for auth
+280 verbose etag "3bcbefb424d9521ef7d88b7214db202b"
+281 http request GET http://34.206.52.14:4873/xml-name-validator
+282 verbose request uri http://34.206.52.14:4873/whatwg-url
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 10:45:27 PM
+285 verbose request using bearer token for auth
+286 verbose etag "d36952641bcf57fa40cc793acb99e397"
+287 http request GET http://34.206.52.14:4873/whatwg-url
+288 http 304 http://34.206.52.14:4873/abab
+289 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+289 verbose headers   etag: '"657f90b41eaaa3252270ed2326241495"',
+289 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+289 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+289 verbose headers   connection: 'keep-alive' }
+290 silly get cb [ 304,
+290 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+290 silly get     etag: '"657f90b41eaaa3252270ed2326241495"',
+290 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+290 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+290 silly get     connection: 'keep-alive' } ]
+291 verbose etag http://34.206.52.14:4873/abab from cache
+292 verbose get saving abab to /Users/brian/.npm/34.206.52.14_4873/abab/.cache.json
+293 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+294 silly resolveWithNewModule abab@1.0.3 checking installable status
+295 silly cache add args [ 'abab@^1.0.3', null ]
+296 verbose cache add spec abab@^1.0.3
+297 silly cache add parsed spec Result {
+297 silly cache add   raw: 'abab@^1.0.3',
+297 silly cache add   scope: null,
+297 silly cache add   escapedName: 'abab',
+297 silly cache add   name: 'abab',
+297 silly cache add   rawSpec: '^1.0.3',
+297 silly cache add   spec: '>=1.0.3 <2.0.0',
+297 silly cache add   type: 'range' }
+298 silly addNamed abab@>=1.0.3 <2.0.0
+299 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for abab
+300 silly addNameRange { name: 'abab', range: '>=1.0.3 <2.0.0', hasData: false }
+301 silly mapToRegistry name abab
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry http://34.206.52.14:4873/
+304 silly mapToRegistry data Result {
+304 silly mapToRegistry   raw: 'abab',
+304 silly mapToRegistry   scope: null,
+304 silly mapToRegistry   escapedName: 'abab',
+304 silly mapToRegistry   name: 'abab',
+304 silly mapToRegistry   rawSpec: '',
+304 silly mapToRegistry   spec: 'latest',
+304 silly mapToRegistry   type: 'tag' }
+305 silly mapToRegistry uri http://34.206.52.14:4873/abab
+306 verbose addNameRange registry:http://34.206.52.14:4873/abab not in flight; fetching
+307 verbose get http://34.206.52.14:4873/abab not expired, no request
+308 silly addNameRange number 2 { name: 'abab', range: '>=1.0.3 <2.0.0', hasData: true }
+309 silly addNameRange versions [ 'abab', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+310 silly addNamed abab@1.0.3
+311 verbose addNamed "1.0.3" is a plain semver version for abab
+312 silly cache afterAdd abab@1.0.3
+313 verbose afterAdd /Users/brian/.npm/abab/1.0.3/package/package.json not in flight; writing
+314 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+315 verbose afterAdd /Users/brian/.npm/abab/1.0.3/package/package.json written
+316 http 304 http://34.206.52.14:4873/acorn-globals
+317 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+317 verbose headers   etag: '"0cf7199ab5b9349e8f5c55d40e74e5d8"',
+317 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+317 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+317 verbose headers   connection: 'keep-alive' }
+318 silly get cb [ 304,
+318 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+318 silly get     etag: '"0cf7199ab5b9349e8f5c55d40e74e5d8"',
+318 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+318 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+318 silly get     connection: 'keep-alive' } ]
+319 verbose etag http://34.206.52.14:4873/acorn-globals from cache
+320 verbose get saving acorn-globals to /Users/brian/.npm/34.206.52.14_4873/acorn-globals/.cache.json
+321 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+322 silly resolveWithNewModule acorn-globals@3.1.0 checking installable status
+323 silly cache add args [ 'acorn-globals@^3.1.0', null ]
+324 verbose cache add spec acorn-globals@^3.1.0
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'acorn-globals@^3.1.0',
+325 silly cache add   scope: null,
+325 silly cache add   escapedName: 'acorn-globals',
+325 silly cache add   name: 'acorn-globals',
+325 silly cache add   rawSpec: '^3.1.0',
+325 silly cache add   spec: '>=3.1.0 <4.0.0',
+325 silly cache add   type: 'range' }
+326 silly addNamed acorn-globals@>=3.1.0 <4.0.0
+327 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for acorn-globals
+328 silly addNameRange { name: 'acorn-globals',
+328 silly addNameRange   range: '>=3.1.0 <4.0.0',
+328 silly addNameRange   hasData: false }
+329 silly mapToRegistry name acorn-globals
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry http://34.206.52.14:4873/
+332 silly mapToRegistry data Result {
+332 silly mapToRegistry   raw: 'acorn-globals',
+332 silly mapToRegistry   scope: null,
+332 silly mapToRegistry   escapedName: 'acorn-globals',
+332 silly mapToRegistry   name: 'acorn-globals',
+332 silly mapToRegistry   rawSpec: '',
+332 silly mapToRegistry   spec: 'latest',
+332 silly mapToRegistry   type: 'tag' }
+333 silly mapToRegistry uri http://34.206.52.14:4873/acorn-globals
+334 verbose addNameRange registry:http://34.206.52.14:4873/acorn-globals not in flight; fetching
+335 verbose get http://34.206.52.14:4873/acorn-globals not expired, no request
+336 silly addNameRange number 2 { name: 'acorn-globals', range: '>=3.1.0 <4.0.0', hasData: true }
+337 silly addNameRange versions [ 'acorn-globals',
+337 silly addNameRange   [ '1.0.0',
+337 silly addNameRange     '1.0.1',
+337 silly addNameRange     '1.0.2',
+337 silly addNameRange     '1.0.3',
+337 silly addNameRange     '1.0.4',
+337 silly addNameRange     '1.0.5',
+337 silly addNameRange     '1.0.6',
+337 silly addNameRange     '1.0.7',
+337 silly addNameRange     '1.0.8',
+337 silly addNameRange     '1.0.9',
+337 silly addNameRange     '2.0.0',
+337 silly addNameRange     '3.0.0',
+337 silly addNameRange     '3.1.0',
+337 silly addNameRange     '4.0.0' ] ]
+338 silly addNamed acorn-globals@3.1.0
+339 verbose addNamed "3.1.0" is a plain semver version for acorn-globals
+340 silly cache afterAdd acorn-globals@3.1.0
+341 verbose afterAdd /Users/brian/.npm/acorn-globals/3.1.0/package/package.json not in flight; writing
+342 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+343 http 304 http://34.206.52.14:4873/cssom
+344 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+344 verbose headers   etag: '"0c9740de88eaa031c0e15ccf29c29b04"',
+344 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+344 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+344 verbose headers   connection: 'keep-alive' }
+345 silly get cb [ 304,
+345 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+345 silly get     etag: '"0c9740de88eaa031c0e15ccf29c29b04"',
+345 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+345 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+345 silly get     connection: 'keep-alive' } ]
+346 verbose etag http://34.206.52.14:4873/cssom from cache
+347 verbose get saving cssom to /Users/brian/.npm/34.206.52.14_4873/cssom/.cache.json
+348 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+349 verbose afterAdd /Users/brian/.npm/acorn-globals/3.1.0/package/package.json written
+350 silly resolveWithNewModule cssom@0.3.2 checking installable status
+351 silly cache add args [ 'cssom@>= 0.3.2 < 0.4.0', null ]
+352 verbose cache add spec cssom@>= 0.3.2 < 0.4.0
+353 silly cache add parsed spec Result {
+353 silly cache add   raw: 'cssom@>= 0.3.2 < 0.4.0',
+353 silly cache add   scope: null,
+353 silly cache add   escapedName: 'cssom',
+353 silly cache add   name: 'cssom',
+353 silly cache add   rawSpec: '>= 0.3.2 < 0.4.0',
+353 silly cache add   spec: '>=0.3.2 <0.4.0',
+353 silly cache add   type: 'range' }
+354 silly addNamed cssom@>=0.3.2 <0.4.0
+355 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for cssom
+356 silly addNameRange { name: 'cssom', range: '>=0.3.2 <0.4.0', hasData: false }
+357 silly mapToRegistry name cssom
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry http://34.206.52.14:4873/
+360 silly mapToRegistry data Result {
+360 silly mapToRegistry   raw: 'cssom',
+360 silly mapToRegistry   scope: null,
+360 silly mapToRegistry   escapedName: 'cssom',
+360 silly mapToRegistry   name: 'cssom',
+360 silly mapToRegistry   rawSpec: '',
+360 silly mapToRegistry   spec: 'latest',
+360 silly mapToRegistry   type: 'tag' }
+361 silly mapToRegistry uri http://34.206.52.14:4873/cssom
+362 verbose addNameRange registry:http://34.206.52.14:4873/cssom not in flight; fetching
+363 http 304 http://34.206.52.14:4873/html-encoding-sniffer
+364 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+364 verbose headers   etag: '"479d99a69507123cc0ac998e96835ed2"',
+364 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+364 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+364 verbose headers   connection: 'keep-alive' }
+365 silly get cb [ 304,
+365 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+365 silly get     etag: '"479d99a69507123cc0ac998e96835ed2"',
+365 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+365 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+365 silly get     connection: 'keep-alive' } ]
+366 verbose etag http://34.206.52.14:4873/html-encoding-sniffer from cache
+367 verbose get saving html-encoding-sniffer to /Users/brian/.npm/34.206.52.14_4873/html-encoding-sniffer/.cache.json
+368 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+369 http 304 http://34.206.52.14:4873/cssstyle
+370 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+370 verbose headers   etag: '"085a6ab053c21ea664dc05c9cbd9c848"',
+370 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+370 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+370 verbose headers   connection: 'keep-alive' }
+371 silly get cb [ 304,
+371 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+371 silly get     etag: '"085a6ab053c21ea664dc05c9cbd9c848"',
+371 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+371 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+371 silly get     connection: 'keep-alive' } ]
+372 verbose etag http://34.206.52.14:4873/cssstyle from cache
+373 verbose get saving cssstyle to /Users/brian/.npm/34.206.52.14_4873/cssstyle/.cache.json
+374 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+375 http 304 http://34.206.52.14:4873/nwmatcher
+376 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+376 verbose headers   etag: '"0cf74382924d994a2ad1cdcd9f66a437"',
+376 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+376 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+376 verbose headers   connection: 'keep-alive' }
+377 silly get cb [ 304,
+377 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+377 silly get     etag: '"0cf74382924d994a2ad1cdcd9f66a437"',
+377 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+377 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+377 silly get     connection: 'keep-alive' } ]
+378 verbose etag http://34.206.52.14:4873/nwmatcher from cache
+379 verbose get saving nwmatcher to /Users/brian/.npm/34.206.52.14_4873/nwmatcher/.cache.json
+380 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+381 verbose get http://34.206.52.14:4873/cssom not expired, no request
+382 silly addNameRange number 2 { name: 'cssom', range: '>=0.3.2 <0.4.0', hasData: true }
+383 silly addNameRange versions [ 'cssom',
+383 silly addNameRange   [ '0.2.0',
+383 silly addNameRange     '0.2.1',
+383 silly addNameRange     '0.2.2',
+383 silly addNameRange     '0.2.3',
+383 silly addNameRange     '0.2.4',
+383 silly addNameRange     '0.2.5',
+383 silly addNameRange     '0.3.0',
+383 silly addNameRange     '0.3.1',
+383 silly addNameRange     '0.3.2' ] ]
+384 silly addNamed cssom@0.3.2
+385 verbose addNamed "0.3.2" is a plain semver version for cssom
+386 silly cache afterAdd cssom@0.3.2
+387 verbose afterAdd /Users/brian/.npm/cssom/0.3.2/package/package.json not in flight; writing
+388 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+389 silly resolveWithNewModule html-encoding-sniffer@1.0.1 checking installable status
+390 silly cache add args [ 'html-encoding-sniffer@^1.0.1', null ]
+391 verbose cache add spec html-encoding-sniffer@^1.0.1
+392 silly cache add parsed spec Result {
+392 silly cache add   raw: 'html-encoding-sniffer@^1.0.1',
+392 silly cache add   scope: null,
+392 silly cache add   escapedName: 'html-encoding-sniffer',
+392 silly cache add   name: 'html-encoding-sniffer',
+392 silly cache add   rawSpec: '^1.0.1',
+392 silly cache add   spec: '>=1.0.1 <2.0.0',
+392 silly cache add   type: 'range' }
+393 silly addNamed html-encoding-sniffer@>=1.0.1 <2.0.0
+394 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for html-encoding-sniffer
+395 silly addNameRange { name: 'html-encoding-sniffer',
+395 silly addNameRange   range: '>=1.0.1 <2.0.0',
+395 silly addNameRange   hasData: false }
+396 silly mapToRegistry name html-encoding-sniffer
+397 silly mapToRegistry using default registry
+398 silly mapToRegistry registry http://34.206.52.14:4873/
+399 silly mapToRegistry data Result {
+399 silly mapToRegistry   raw: 'html-encoding-sniffer',
+399 silly mapToRegistry   scope: null,
+399 silly mapToRegistry   escapedName: 'html-encoding-sniffer',
+399 silly mapToRegistry   name: 'html-encoding-sniffer',
+399 silly mapToRegistry   rawSpec: '',
+399 silly mapToRegistry   spec: 'latest',
+399 silly mapToRegistry   type: 'tag' }
+400 silly mapToRegistry uri http://34.206.52.14:4873/html-encoding-sniffer
+401 verbose addNameRange registry:http://34.206.52.14:4873/html-encoding-sniffer not in flight; fetching
+402 silly resolveWithNewModule cssstyle@0.2.37 checking installable status
+403 silly cache add args [ 'cssstyle@>= 0.2.37 < 0.3.0', null ]
+404 verbose cache add spec cssstyle@>= 0.2.37 < 0.3.0
+405 silly cache add parsed spec Result {
+405 silly cache add   raw: 'cssstyle@>= 0.2.37 < 0.3.0',
+405 silly cache add   scope: null,
+405 silly cache add   escapedName: 'cssstyle',
+405 silly cache add   name: 'cssstyle',
+405 silly cache add   rawSpec: '>= 0.2.37 < 0.3.0',
+405 silly cache add   spec: '>=0.2.37 <0.3.0',
+405 silly cache add   type: 'range' }
+406 silly addNamed cssstyle@>=0.2.37 <0.3.0
+407 verbose addNamed ">=0.2.37 <0.3.0" is a valid semver range for cssstyle
+408 silly addNameRange { name: 'cssstyle', range: '>=0.2.37 <0.3.0', hasData: false }
+409 silly mapToRegistry name cssstyle
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry http://34.206.52.14:4873/
+412 silly mapToRegistry data Result {
+412 silly mapToRegistry   raw: 'cssstyle',
+412 silly mapToRegistry   scope: null,
+412 silly mapToRegistry   escapedName: 'cssstyle',
+412 silly mapToRegistry   name: 'cssstyle',
+412 silly mapToRegistry   rawSpec: '',
+412 silly mapToRegistry   spec: 'latest',
+412 silly mapToRegistry   type: 'tag' }
+413 silly mapToRegistry uri http://34.206.52.14:4873/cssstyle
+414 verbose addNameRange registry:http://34.206.52.14:4873/cssstyle not in flight; fetching
+415 http 304 http://34.206.52.14:4873/escodegen
+416 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+416 verbose headers   etag: '"b3329c6460936f8984e46594dd8169e2"',
+416 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+416 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+416 verbose headers   connection: 'keep-alive' }
+417 silly get cb [ 304,
+417 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+417 silly get     etag: '"b3329c6460936f8984e46594dd8169e2"',
+417 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+417 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+417 silly get     connection: 'keep-alive' } ]
+418 verbose etag http://34.206.52.14:4873/escodegen from cache
+419 verbose get saving escodegen to /Users/brian/.npm/34.206.52.14_4873/escodegen/.cache.json
+420 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+421 http 304 http://34.206.52.14:4873/pn
+422 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+422 verbose headers   etag: '"be1563d7056c5bf34946044d3b5ce11d"',
+422 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+422 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+422 verbose headers   connection: 'keep-alive' }
+423 silly get cb [ 304,
+423 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+423 silly get     etag: '"be1563d7056c5bf34946044d3b5ce11d"',
+423 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+423 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+423 silly get     connection: 'keep-alive' } ]
+424 verbose etag http://34.206.52.14:4873/pn from cache
+425 verbose get saving pn to /Users/brian/.npm/34.206.52.14_4873/pn/.cache.json
+426 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+427 http 304 http://34.206.52.14:4873/sax
+428 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+428 verbose headers   etag: '"34afc1126bd1026a3bb12bdef6d06776"',
+428 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+428 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+428 verbose headers   connection: 'keep-alive' }
+429 silly get cb [ 304,
+429 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+429 silly get     etag: '"34afc1126bd1026a3bb12bdef6d06776"',
+429 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+429 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+429 silly get     connection: 'keep-alive' } ]
+430 verbose etag http://34.206.52.14:4873/sax from cache
+431 verbose get saving sax to /Users/brian/.npm/34.206.52.14_4873/sax/.cache.json
+432 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+433 http 304 http://34.206.52.14:4873/request-promise-native
+434 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+434 verbose headers   etag: '"92720b60ed2796019b4f149532401dd0"',
+434 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+434 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+434 verbose headers   connection: 'keep-alive' }
+435 silly get cb [ 304,
+435 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+435 silly get     etag: '"92720b60ed2796019b4f149532401dd0"',
+435 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+435 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+435 silly get     connection: 'keep-alive' } ]
+436 verbose etag http://34.206.52.14:4873/request-promise-native from cache
+437 verbose get saving request-promise-native to /Users/brian/.npm/34.206.52.14_4873/request-promise-native/.cache.json
+438 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+439 http 304 http://34.206.52.14:4873/array-equal
+440 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+440 verbose headers   etag: '"69ad57f4de49369c541cb6d41c1e1f02"',
+440 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+440 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+440 verbose headers   connection: 'keep-alive' }
+441 silly get cb [ 304,
+441 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+441 silly get     etag: '"69ad57f4de49369c541cb6d41c1e1f02"',
+441 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+441 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+441 silly get     connection: 'keep-alive' } ]
+442 verbose etag http://34.206.52.14:4873/array-equal from cache
+443 verbose get saving array-equal to /Users/brian/.npm/34.206.52.14_4873/array-equal/.cache.json
+444 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+445 http 304 http://34.206.52.14:4873/symbol-tree
+446 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+446 verbose headers   etag: '"156819593de7653e0be2acb46b2bd72f"',
+446 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+446 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+446 verbose headers   connection: 'keep-alive' }
+447 silly get cb [ 304,
+447 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+447 silly get     etag: '"156819593de7653e0be2acb46b2bd72f"',
+447 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+447 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+447 silly get     connection: 'keep-alive' } ]
+448 verbose etag http://34.206.52.14:4873/symbol-tree from cache
+449 verbose get saving symbol-tree to /Users/brian/.npm/34.206.52.14_4873/symbol-tree/.cache.json
+450 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+451 http 304 http://34.206.52.14:4873/content-type-parser
+452 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+452 verbose headers   etag: '"325c6adb8cfa727d936ab86cb7a4b007"',
+452 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+452 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+452 verbose headers   connection: 'keep-alive' }
+453 silly get cb [ 304,
+453 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+453 silly get     etag: '"325c6adb8cfa727d936ab86cb7a4b007"',
+453 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+453 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+453 silly get     connection: 'keep-alive' } ]
+454 verbose etag http://34.206.52.14:4873/content-type-parser from cache
+455 verbose get saving content-type-parser to /Users/brian/.npm/34.206.52.14_4873/content-type-parser/.cache.json
+456 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+457 silly resolveWithNewModule nwmatcher@1.4.1 checking installable status
+458 silly cache add args [ 'nwmatcher@^1.4.1', null ]
+459 verbose cache add spec nwmatcher@^1.4.1
+460 silly cache add parsed spec Result {
+460 silly cache add   raw: 'nwmatcher@^1.4.1',
+460 silly cache add   scope: null,
+460 silly cache add   escapedName: 'nwmatcher',
+460 silly cache add   name: 'nwmatcher',
+460 silly cache add   rawSpec: '^1.4.1',
+460 silly cache add   spec: '>=1.4.1 <2.0.0',
+460 silly cache add   type: 'range' }
+461 silly addNamed nwmatcher@>=1.4.1 <2.0.0
+462 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for nwmatcher
+463 silly addNameRange { name: 'nwmatcher', range: '>=1.4.1 <2.0.0', hasData: false }
+464 silly mapToRegistry name nwmatcher
+465 silly mapToRegistry using default registry
+466 silly mapToRegistry registry http://34.206.52.14:4873/
+467 silly mapToRegistry data Result {
+467 silly mapToRegistry   raw: 'nwmatcher',
+467 silly mapToRegistry   scope: null,
+467 silly mapToRegistry   escapedName: 'nwmatcher',
+467 silly mapToRegistry   name: 'nwmatcher',
+467 silly mapToRegistry   rawSpec: '',
+467 silly mapToRegistry   spec: 'latest',
+467 silly mapToRegistry   type: 'tag' }
+468 silly mapToRegistry uri http://34.206.52.14:4873/nwmatcher
+469 verbose addNameRange registry:http://34.206.52.14:4873/nwmatcher not in flight; fetching
+470 verbose get http://34.206.52.14:4873/html-encoding-sniffer not expired, no request
+471 silly addNameRange number 2 { name: 'html-encoding-sniffer',
+471 silly addNameRange   range: '>=1.0.1 <2.0.0',
+471 silly addNameRange   hasData: true }
+472 silly addNameRange versions [ 'html-encoding-sniffer', [ '1.0.0', '1.0.1' ] ]
+473 silly addNamed html-encoding-sniffer@1.0.1
+474 verbose addNamed "1.0.1" is a plain semver version for html-encoding-sniffer
+475 verbose get http://34.206.52.14:4873/cssstyle not expired, no request
+476 silly addNameRange number 2 { name: 'cssstyle', range: '>=0.2.37 <0.3.0', hasData: true }
+477 silly addNameRange versions [ 'cssstyle',
+477 silly addNameRange   [ '0.1.0',
+477 silly addNameRange     '0.2.0',
+477 silly addNameRange     '0.2.1',
+477 silly addNameRange     '0.2.2',
+477 silly addNameRange     '0.2.3',
+477 silly addNameRange     '0.2.4',
+477 silly addNameRange     '0.2.5',
+477 silly addNameRange     '0.2.6',
+477 silly addNameRange     '0.2.7',
+477 silly addNameRange     '0.2.8',
+477 silly addNameRange     '0.2.9',
+477 silly addNameRange     '0.2.10',
+477 silly addNameRange     '0.2.11',
+477 silly addNameRange     '0.2.12',
+477 silly addNameRange     '0.2.13',
+477 silly addNameRange     '0.2.14',
+477 silly addNameRange     '0.2.15',
+477 silly addNameRange     '0.2.16',
+477 silly addNameRange     '0.2.17',
+477 silly addNameRange     '0.2.18',
+477 silly addNameRange     '0.2.21',
+477 silly addNameRange     '0.2.22',
+477 silly addNameRange     '0.2.23',
+477 silly addNameRange     '0.2.24',
+477 silly addNameRange     '0.2.25',
+477 silly addNameRange     '0.2.26',
+477 silly addNameRange     '0.2.27',
+477 silly addNameRange     '0.2.28',
+477 silly addNameRange     '0.2.29',
+477 silly addNameRange     '0.2.30',
+477 silly addNameRange     '0.2.31',
+477 silly addNameRange     '0.2.34',
+477 silly addNameRange     '0.2.35',
+477 silly addNameRange     '0.2.36',
+477 silly addNameRange     '0.2.37' ] ]
+478 silly addNamed cssstyle@0.2.37
+479 verbose addNamed "0.2.37" is a plain semver version for cssstyle
+480 verbose afterAdd /Users/brian/.npm/cssom/0.3.2/package/package.json written
+481 verbose get http://34.206.52.14:4873/nwmatcher not expired, no request
+482 silly addNameRange number 2 { name: 'nwmatcher', range: '>=1.4.1 <2.0.0', hasData: true }
+483 silly addNameRange versions [ 'nwmatcher',
+483 silly addNameRange   [ '1.2.5',
+483 silly addNameRange     '1.3.0',
+483 silly addNameRange     '1.3.1',
+483 silly addNameRange     '1.3.2',
+483 silly addNameRange     '1.3.3',
+483 silly addNameRange     '1.3.4',
+483 silly addNameRange     '1.3.5',
+483 silly addNameRange     '1.3.6',
+483 silly addNameRange     '1.3.7',
+483 silly addNameRange     '1.3.8',
+483 silly addNameRange     '1.3.9',
+483 silly addNameRange     '1.4.0',
+483 silly addNameRange     '1.4.1' ] ]
+484 silly addNamed nwmatcher@1.4.1
+485 verbose addNamed "1.4.1" is a plain semver version for nwmatcher
+486 silly cache afterAdd html-encoding-sniffer@1.0.1
+487 verbose afterAdd /Users/brian/.npm/html-encoding-sniffer/1.0.1/package/package.json not in flight; writing
+488 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+489 silly cache afterAdd cssstyle@0.2.37
+490 verbose afterAdd /Users/brian/.npm/cssstyle/0.2.37/package/package.json not in flight; writing
+491 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+492 silly resolveWithNewModule pn@1.0.0 checking installable status
+493 silly cache add args [ 'pn@^1.0.0', null ]
+494 verbose cache add spec pn@^1.0.0
+495 silly cache add parsed spec Result {
+495 silly cache add   raw: 'pn@^1.0.0',
+495 silly cache add   scope: null,
+495 silly cache add   escapedName: 'pn',
+495 silly cache add   name: 'pn',
+495 silly cache add   rawSpec: '^1.0.0',
+495 silly cache add   spec: '>=1.0.0 <2.0.0',
+495 silly cache add   type: 'range' }
+496 silly addNamed pn@>=1.0.0 <2.0.0
+497 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for pn
+498 silly addNameRange { name: 'pn', range: '>=1.0.0 <2.0.0', hasData: false }
+499 silly mapToRegistry name pn
+500 silly mapToRegistry using default registry
+501 silly mapToRegistry registry http://34.206.52.14:4873/
+502 silly mapToRegistry data Result {
+502 silly mapToRegistry   raw: 'pn',
+502 silly mapToRegistry   scope: null,
+502 silly mapToRegistry   escapedName: 'pn',
+502 silly mapToRegistry   name: 'pn',
+502 silly mapToRegistry   rawSpec: '',
+502 silly mapToRegistry   spec: 'latest',
+502 silly mapToRegistry   type: 'tag' }
+503 silly mapToRegistry uri http://34.206.52.14:4873/pn
+504 verbose addNameRange registry:http://34.206.52.14:4873/pn not in flight; fetching
+505 silly resolveWithNewModule escodegen@1.8.1 checking installable status
+506 silly cache add args [ 'escodegen@^1.6.1', null ]
+507 verbose cache add spec escodegen@^1.6.1
+508 silly cache add parsed spec Result {
+508 silly cache add   raw: 'escodegen@^1.6.1',
+508 silly cache add   scope: null,
+508 silly cache add   escapedName: 'escodegen',
+508 silly cache add   name: 'escodegen',
+508 silly cache add   rawSpec: '^1.6.1',
+508 silly cache add   spec: '>=1.6.1 <2.0.0',
+508 silly cache add   type: 'range' }
+509 silly addNamed escodegen@>=1.6.1 <2.0.0
+510 verbose addNamed ">=1.6.1 <2.0.0" is a valid semver range for escodegen
+511 silly addNameRange { name: 'escodegen', range: '>=1.6.1 <2.0.0', hasData: false }
+512 silly mapToRegistry name escodegen
+513 silly mapToRegistry using default registry
+514 silly mapToRegistry registry http://34.206.52.14:4873/
+515 silly mapToRegistry data Result {
+515 silly mapToRegistry   raw: 'escodegen',
+515 silly mapToRegistry   scope: null,
+515 silly mapToRegistry   escapedName: 'escodegen',
+515 silly mapToRegistry   name: 'escodegen',
+515 silly mapToRegistry   rawSpec: '',
+515 silly mapToRegistry   spec: 'latest',
+515 silly mapToRegistry   type: 'tag' }
+516 silly mapToRegistry uri http://34.206.52.14:4873/escodegen
+517 verbose addNameRange registry:http://34.206.52.14:4873/escodegen not in flight; fetching
+518 http 304 http://34.206.52.14:4873/whatwg-url
+519 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+519 verbose headers   etag: '"d36952641bcf57fa40cc793acb99e397"',
+519 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+519 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+519 verbose headers   connection: 'keep-alive' }
+520 silly get cb [ 304,
+520 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+520 silly get     etag: '"d36952641bcf57fa40cc793acb99e397"',
+520 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+520 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+520 silly get     connection: 'keep-alive' } ]
+521 verbose etag http://34.206.52.14:4873/whatwg-url from cache
+522 verbose get saving whatwg-url to /Users/brian/.npm/34.206.52.14_4873/whatwg-url/.cache.json
+523 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+524 http 304 http://34.206.52.14:4873/webidl-conversions
+525 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+525 verbose headers   etag: '"9bc06ec202ca1650179f1d564b699290"',
+525 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+525 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+525 verbose headers   connection: 'keep-alive' }
+526 silly get cb [ 304,
+526 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+526 silly get     etag: '"9bc06ec202ca1650179f1d564b699290"',
+526 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+526 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+526 silly get     connection: 'keep-alive' } ]
+527 verbose etag http://34.206.52.14:4873/webidl-conversions from cache
+528 verbose get saving webidl-conversions to /Users/brian/.npm/34.206.52.14_4873/webidl-conversions/.cache.json
+529 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+530 http 304 http://34.206.52.14:4873/whatwg-encoding
+531 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+531 verbose headers   etag: '"2a30fbff7aac3a8574b51194798980c7"',
+531 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+531 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+531 verbose headers   connection: 'keep-alive' }
+532 silly get cb [ 304,
+532 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+532 silly get     etag: '"2a30fbff7aac3a8574b51194798980c7"',
+532 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+532 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+532 silly get     connection: 'keep-alive' } ]
+533 verbose etag http://34.206.52.14:4873/whatwg-encoding from cache
+534 verbose get saving whatwg-encoding to /Users/brian/.npm/34.206.52.14_4873/whatwg-encoding/.cache.json
+535 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+536 silly resolveWithNewModule array-equal@1.0.0 checking installable status
+537 silly cache add args [ 'array-equal@^1.0.0', null ]
+538 verbose cache add spec array-equal@^1.0.0
+539 silly cache add parsed spec Result {
+539 silly cache add   raw: 'array-equal@^1.0.0',
+539 silly cache add   scope: null,
+539 silly cache add   escapedName: 'array-equal',
+539 silly cache add   name: 'array-equal',
+539 silly cache add   rawSpec: '^1.0.0',
+539 silly cache add   spec: '>=1.0.0 <2.0.0',
+539 silly cache add   type: 'range' }
+540 silly addNamed array-equal@>=1.0.0 <2.0.0
+541 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for array-equal
+542 silly addNameRange { name: 'array-equal', range: '>=1.0.0 <2.0.0', hasData: false }
+543 silly mapToRegistry name array-equal
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry http://34.206.52.14:4873/
+546 silly mapToRegistry data Result {
+546 silly mapToRegistry   raw: 'array-equal',
+546 silly mapToRegistry   scope: null,
+546 silly mapToRegistry   escapedName: 'array-equal',
+546 silly mapToRegistry   name: 'array-equal',
+546 silly mapToRegistry   rawSpec: '',
+546 silly mapToRegistry   spec: 'latest',
+546 silly mapToRegistry   type: 'tag' }
+547 silly mapToRegistry uri http://34.206.52.14:4873/array-equal
+548 verbose addNameRange registry:http://34.206.52.14:4873/array-equal not in flight; fetching
+549 silly resolveWithNewModule sax@1.2.4 checking installable status
+550 silly cache add args [ 'sax@^1.2.1', null ]
+551 verbose cache add spec sax@^1.2.1
+552 silly cache add parsed spec Result {
+552 silly cache add   raw: 'sax@^1.2.1',
+552 silly cache add   scope: null,
+552 silly cache add   escapedName: 'sax',
+552 silly cache add   name: 'sax',
+552 silly cache add   rawSpec: '^1.2.1',
+552 silly cache add   spec: '>=1.2.1 <2.0.0',
+552 silly cache add   type: 'range' }
+553 silly addNamed sax@>=1.2.1 <2.0.0
+554 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for sax
+555 silly addNameRange { name: 'sax', range: '>=1.2.1 <2.0.0', hasData: false }
+556 silly mapToRegistry name sax
+557 silly mapToRegistry using default registry
+558 silly mapToRegistry registry http://34.206.52.14:4873/
+559 silly mapToRegistry data Result {
+559 silly mapToRegistry   raw: 'sax',
+559 silly mapToRegistry   scope: null,
+559 silly mapToRegistry   escapedName: 'sax',
+559 silly mapToRegistry   name: 'sax',
+559 silly mapToRegistry   rawSpec: '',
+559 silly mapToRegistry   spec: 'latest',
+559 silly mapToRegistry   type: 'tag' }
+560 silly mapToRegistry uri http://34.206.52.14:4873/sax
+561 verbose addNameRange registry:http://34.206.52.14:4873/sax not in flight; fetching
+562 silly cache afterAdd nwmatcher@1.4.1
+563 verbose afterAdd /Users/brian/.npm/nwmatcher/1.4.1/package/package.json not in flight; writing
+564 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+565 silly resolveWithNewModule content-type-parser@1.0.1 checking installable status
+566 silly cache add args [ 'content-type-parser@^1.0.1', null ]
+567 verbose cache add spec content-type-parser@^1.0.1
+568 silly cache add parsed spec Result {
+568 silly cache add   raw: 'content-type-parser@^1.0.1',
+568 silly cache add   scope: null,
+568 silly cache add   escapedName: 'content-type-parser',
+568 silly cache add   name: 'content-type-parser',
+568 silly cache add   rawSpec: '^1.0.1',
+568 silly cache add   spec: '>=1.0.1 <2.0.0',
+568 silly cache add   type: 'range' }
+569 silly addNamed content-type-parser@>=1.0.1 <2.0.0
+570 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for content-type-parser
+571 silly addNameRange { name: 'content-type-parser',
+571 silly addNameRange   range: '>=1.0.1 <2.0.0',
+571 silly addNameRange   hasData: false }
+572 silly mapToRegistry name content-type-parser
+573 silly mapToRegistry using default registry
+574 silly mapToRegistry registry http://34.206.52.14:4873/
+575 silly mapToRegistry data Result {
+575 silly mapToRegistry   raw: 'content-type-parser',
+575 silly mapToRegistry   scope: null,
+575 silly mapToRegistry   escapedName: 'content-type-parser',
+575 silly mapToRegistry   name: 'content-type-parser',
+575 silly mapToRegistry   rawSpec: '',
+575 silly mapToRegistry   spec: 'latest',
+575 silly mapToRegistry   type: 'tag' }
+576 silly mapToRegistry uri http://34.206.52.14:4873/content-type-parser
+577 verbose addNameRange registry:http://34.206.52.14:4873/content-type-parser not in flight; fetching
+578 silly resolveWithNewModule request-promise-native@1.0.4 checking installable status
+579 silly cache add args [ 'request-promise-native@^1.0.3', null ]
+580 verbose cache add spec request-promise-native@^1.0.3
+581 silly cache add parsed spec Result {
+581 silly cache add   raw: 'request-promise-native@^1.0.3',
+581 silly cache add   scope: null,
+581 silly cache add   escapedName: 'request-promise-native',
+581 silly cache add   name: 'request-promise-native',
+581 silly cache add   rawSpec: '^1.0.3',
+581 silly cache add   spec: '>=1.0.3 <2.0.0',
+581 silly cache add   type: 'range' }
+582 silly addNamed request-promise-native@>=1.0.3 <2.0.0
+583 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for request-promise-native
+584 silly addNameRange { name: 'request-promise-native',
+584 silly addNameRange   range: '>=1.0.3 <2.0.0',
+584 silly addNameRange   hasData: false }
+585 silly mapToRegistry name request-promise-native
+586 silly mapToRegistry using default registry
+587 silly mapToRegistry registry http://34.206.52.14:4873/
+588 silly mapToRegistry data Result {
+588 silly mapToRegistry   raw: 'request-promise-native',
+588 silly mapToRegistry   scope: null,
+588 silly mapToRegistry   escapedName: 'request-promise-native',
+588 silly mapToRegistry   name: 'request-promise-native',
+588 silly mapToRegistry   rawSpec: '',
+588 silly mapToRegistry   spec: 'latest',
+588 silly mapToRegistry   type: 'tag' }
+589 silly mapToRegistry uri http://34.206.52.14:4873/request-promise-native
+590 verbose addNameRange registry:http://34.206.52.14:4873/request-promise-native not in flight; fetching
+591 silly resolveWithNewModule symbol-tree@3.2.2 checking installable status
+592 silly cache add args [ 'symbol-tree@^3.2.1', null ]
+593 verbose cache add spec symbol-tree@^3.2.1
+594 silly cache add parsed spec Result {
+594 silly cache add   raw: 'symbol-tree@^3.2.1',
+594 silly cache add   scope: null,
+594 silly cache add   escapedName: 'symbol-tree',
+594 silly cache add   name: 'symbol-tree',
+594 silly cache add   rawSpec: '^3.2.1',
+594 silly cache add   spec: '>=3.2.1 <4.0.0',
+594 silly cache add   type: 'range' }
+595 silly addNamed symbol-tree@>=3.2.1 <4.0.0
+596 verbose addNamed ">=3.2.1 <4.0.0" is a valid semver range for symbol-tree
+597 silly addNameRange { name: 'symbol-tree', range: '>=3.2.1 <4.0.0', hasData: false }
+598 silly mapToRegistry name symbol-tree
+599 silly mapToRegistry using default registry
+600 silly mapToRegistry registry http://34.206.52.14:4873/
+601 silly mapToRegistry data Result {
+601 silly mapToRegistry   raw: 'symbol-tree',
+601 silly mapToRegistry   scope: null,
+601 silly mapToRegistry   escapedName: 'symbol-tree',
+601 silly mapToRegistry   name: 'symbol-tree',
+601 silly mapToRegistry   rawSpec: '',
+601 silly mapToRegistry   spec: 'latest',
+601 silly mapToRegistry   type: 'tag' }
+602 silly mapToRegistry uri http://34.206.52.14:4873/symbol-tree
+603 verbose addNameRange registry:http://34.206.52.14:4873/symbol-tree not in flight; fetching
+604 verbose get http://34.206.52.14:4873/escodegen not expired, no request
+605 silly addNameRange number 2 { name: 'escodegen', range: '>=1.6.1 <2.0.0', hasData: true }
+606 silly addNameRange versions [ 'escodegen',
+606 silly addNameRange   [ '0.0.1',
+606 silly addNameRange     '0.0.2',
+606 silly addNameRange     '0.0.3',
+606 silly addNameRange     '0.0.4',
+606 silly addNameRange     '0.0.5',
+606 silly addNameRange     '0.0.6',
+606 silly addNameRange     '0.0.7',
+606 silly addNameRange     '0.0.8',
+606 silly addNameRange     '0.0.9',
+606 silly addNameRange     '0.0.10',
+606 silly addNameRange     '0.0.11',
+606 silly addNameRange     '0.0.12',
+606 silly addNameRange     '0.0.14',
+606 silly addNameRange     '0.0.15',
+606 silly addNameRange     '0.0.16',
+606 silly addNameRange     '0.0.17',
+606 silly addNameRange     '0.0.18',
+606 silly addNameRange     '0.0.19',
+606 silly addNameRange     '0.0.20',
+606 silly addNameRange     '0.0.21',
+606 silly addNameRange     '0.0.22',
+606 silly addNameRange     '0.0.23',
+606 silly addNameRange     '0.0.24',
+606 silly addNameRange     '0.0.25',
+606 silly addNameRange     '0.0.26',
+606 silly addNameRange     '0.0.27',
+606 silly addNameRange     '0.0.28',
+606 silly addNameRange     '1.0.0',
+606 silly addNameRange     '1.0.1',
+606 silly addNameRange     '1.1.0',
+606 silly addNameRange     '1.2.0',
+606 silly addNameRange     '1.3.0',
+606 silly addNameRange     '1.3.1',
+606 silly addNameRange     '1.3.2',
+606 silly addNameRange     '1.3.3',
+606 silly addNameRange     '1.4.0',
+606 silly addNameRange     '1.4.1',
+606 silly addNameRange     '1.4.2',
+606 silly addNameRange     '1.4.3',
+606 silly addNameRange     '1.5.0',
+606 silly addNameRange     '1.6.0',
+606 silly addNameRange     '1.6.1',
+606 silly addNameRange     '1.7.0',
+606 silly addNameRange     '1.7.1',
+606 silly addNameRange     '1.8.0',
+606 silly addNameRange     '1.8.1' ] ]
+607 silly addNamed escodegen@1.8.1
+608 verbose addNamed "1.8.1" is a plain semver version for escodegen
+609 verbose get http://34.206.52.14:4873/pn not expired, no request
+610 silly addNameRange number 2 { name: 'pn', range: '>=1.0.0 <2.0.0', hasData: true }
+611 silly addNameRange versions [ 'pn', [ '0.0.0', '0.0.1', '1.0.0' ] ]
+612 silly addNamed pn@1.0.0
+613 verbose addNamed "1.0.0" is a plain semver version for pn
+614 verbose get http://34.206.52.14:4873/array-equal not expired, no request
+615 silly addNameRange number 2 { name: 'array-equal', range: '>=1.0.0 <2.0.0', hasData: true }
+616 silly addNameRange versions [ 'array-equal', [ '1.0.0' ] ]
+617 silly addNamed array-equal@1.0.0
+618 verbose addNamed "1.0.0" is a plain semver version for array-equal
+619 verbose get http://34.206.52.14:4873/content-type-parser not expired, no request
+620 silly addNameRange number 2 { name: 'content-type-parser',
+620 silly addNameRange   range: '>=1.0.1 <2.0.0',
+620 silly addNameRange   hasData: true }
+621 silly addNameRange versions [ 'content-type-parser', [ '1.0.0', '1.0.1' ] ]
+622 silly addNamed content-type-parser@1.0.1
+623 verbose addNamed "1.0.1" is a plain semver version for content-type-parser
+624 verbose get http://34.206.52.14:4873/request-promise-native not expired, no request
+625 silly addNameRange number 2 { name: 'request-promise-native',
+625 silly addNameRange   range: '>=1.0.3 <2.0.0',
+625 silly addNameRange   hasData: true }
+626 silly addNameRange versions [ 'request-promise-native',
+626 silly addNameRange   [ '0.0.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4' ] ]
+627 silly addNamed request-promise-native@1.0.4
+628 verbose addNamed "1.0.4" is a plain semver version for request-promise-native
+629 verbose get http://34.206.52.14:4873/sax not expired, no request
+630 silly addNameRange number 2 { name: 'sax', range: '>=1.2.1 <2.0.0', hasData: true }
+631 silly addNameRange versions [ 'sax',
+631 silly addNameRange   [ '0.1.0',
+631 silly addNameRange     '0.1.1',
+631 silly addNameRange     '0.1.2',
+631 silly addNameRange     '0.1.3',
+631 silly addNameRange     '0.1.4',
+631 silly addNameRange     '0.1.5',
+631 silly addNameRange     '0.2.0',
+631 silly addNameRange     '0.2.1',
+631 silly addNameRange     '0.2.2',
+631 silly addNameRange     '0.2.3',
+631 silly addNameRange     '0.2.4',
+631 silly addNameRange     '0.2.5',
+631 silly addNameRange     '0.3.0',
+631 silly addNameRange     '0.3.1',
+631 silly addNameRange     '0.3.2',
+631 silly addNameRange     '0.3.3',
+631 silly addNameRange     '0.3.4',
+631 silly addNameRange     '0.3.5',
+631 silly addNameRange     '0.4.1',
+631 silly addNameRange     '0.4.0',
+631 silly addNameRange     '0.4.2',
+631 silly addNameRange     '0.4.3',
+631 silly addNameRange     '0.5.0',
+631 silly addNameRange     '0.5.1',
+631 silly addNameRange     '0.5.2',
+631 silly addNameRange     '0.5.3',
+631 silly addNameRange     '0.5.4',
+631 silly addNameRange     '0.5.5',
+631 silly addNameRange     '0.5.6',
+631 silly addNameRange     '0.5.7',
+631 silly addNameRange     '0.5.8',
+631 silly addNameRange     '0.6.0',
+631 silly addNameRange     '0.6.1',
+631 silly addNameRange     '1.0.0',
+631 silly addNameRange     '1.1.0',
+631 silly addNameRange     '1.1.1',
+631 silly addNameRange     '1.1.2',
+631 silly addNameRange     '1.1.3',
+631 silly addNameRange     '1.1.4',
+631 silly addNameRange     '1.1.5',
+631 silly addNameRange     '1.1.6',
+631 silly addNameRange     '1.2.1',
+631 silly addNameRange     '1.2.2',
+631 silly addNameRange     '1.2.3',
+631 silly addNameRange     '1.2.4' ] ]
+632 silly addNamed sax@1.2.4
+633 verbose addNamed "1.2.4" is a plain semver version for sax
+634 verbose afterAdd /Users/brian/.npm/html-encoding-sniffer/1.0.1/package/package.json written
+635 verbose get http://34.206.52.14:4873/symbol-tree not expired, no request
+636 silly addNameRange number 2 { name: 'symbol-tree', range: '>=3.2.1 <4.0.0', hasData: true }
+637 silly addNameRange versions [ 'symbol-tree',
+637 silly addNameRange   [ '1.1.0',
+637 silly addNameRange     '1.2.0',
+637 silly addNameRange     '1.3.1',
+637 silly addNameRange     '1.4.0',
+637 silly addNameRange     '1.5.0',
+637 silly addNameRange     '1.5.1',
+637 silly addNameRange     '2.0.0',
+637 silly addNameRange     '3.0.0',
+637 silly addNameRange     '3.1.0',
+637 silly addNameRange     '3.1.1',
+637 silly addNameRange     '3.1.2',
+637 silly addNameRange     '3.1.3',
+637 silly addNameRange     '3.1.4',
+637 silly addNameRange     '3.2.0',
+637 silly addNameRange     '3.2.1',
+637 silly addNameRange     '3.2.2' ] ]
+638 silly addNamed symbol-tree@3.2.2
+639 verbose addNamed "3.2.2" is a plain semver version for symbol-tree
+640 verbose afterAdd /Users/brian/.npm/cssstyle/0.2.37/package/package.json written
+641 verbose afterAdd /Users/brian/.npm/nwmatcher/1.4.1/package/package.json written
+642 http 200 http://34.206.52.14:4873/xml-name-validator
+643 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+643 verbose headers   'content-type': 'application/json; charset=utf-8',
+643 verbose headers   etag: '"f4011130f4f86126886674c15fe87214"',
+643 verbose headers   vary: 'Accept-Encoding',
+643 verbose headers   'content-encoding': 'gzip',
+643 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+643 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+643 verbose headers   connection: 'keep-alive',
+643 verbose headers   'transfer-encoding': 'chunked' }
+644 silly get cb [ 200,
+644 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+644 silly get     'content-type': 'application/json; charset=utf-8',
+644 silly get     etag: '"f4011130f4f86126886674c15fe87214"',
+644 silly get     vary: 'Accept-Encoding',
+644 silly get     'content-encoding': 'gzip',
+644 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+644 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+644 silly get     connection: 'keep-alive',
+644 silly get     'transfer-encoding': 'chunked' } ]
+645 verbose get saving xml-name-validator to /Users/brian/.npm/34.206.52.14_4873/xml-name-validator/.cache.json
+646 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+647 silly cache afterAdd pn@1.0.0
+648 verbose afterAdd /Users/brian/.npm/pn/1.0.0/package/package.json not in flight; writing
+649 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+650 silly resolveWithNewModule whatwg-url@6.1.0 checking installable status
+651 silly cache add args [ 'whatwg-url@^6.1.0', null ]
+652 verbose cache add spec whatwg-url@^6.1.0
+653 silly cache add parsed spec Result {
+653 silly cache add   raw: 'whatwg-url@^6.1.0',
+653 silly cache add   scope: null,
+653 silly cache add   escapedName: 'whatwg-url',
+653 silly cache add   name: 'whatwg-url',
+653 silly cache add   rawSpec: '^6.1.0',
+653 silly cache add   spec: '>=6.1.0 <7.0.0',
+653 silly cache add   type: 'range' }
+654 silly addNamed whatwg-url@>=6.1.0 <7.0.0
+655 verbose addNamed ">=6.1.0 <7.0.0" is a valid semver range for whatwg-url
+656 silly addNameRange { name: 'whatwg-url', range: '>=6.1.0 <7.0.0', hasData: false }
+657 silly mapToRegistry name whatwg-url
+658 silly mapToRegistry using default registry
+659 silly mapToRegistry registry http://34.206.52.14:4873/
+660 silly mapToRegistry data Result {
+660 silly mapToRegistry   raw: 'whatwg-url',
+660 silly mapToRegistry   scope: null,
+660 silly mapToRegistry   escapedName: 'whatwg-url',
+660 silly mapToRegistry   name: 'whatwg-url',
+660 silly mapToRegistry   rawSpec: '',
+660 silly mapToRegistry   spec: 'latest',
+660 silly mapToRegistry   type: 'tag' }
+661 silly mapToRegistry uri http://34.206.52.14:4873/whatwg-url
+662 verbose addNameRange registry:http://34.206.52.14:4873/whatwg-url not in flight; fetching
+663 silly cache afterAdd escodegen@1.8.1
+664 verbose afterAdd /Users/brian/.npm/escodegen/1.8.1/package/package.json not in flight; writing
+665 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+666 silly cache afterAdd array-equal@1.0.0
+667 verbose afterAdd /Users/brian/.npm/array-equal/1.0.0/package/package.json not in flight; writing
+668 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+669 silly cache afterAdd content-type-parser@1.0.1
+670 verbose afterAdd /Users/brian/.npm/content-type-parser/1.0.1/package/package.json not in flight; writing
+671 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+672 silly cache afterAdd request-promise-native@1.0.4
+673 verbose afterAdd /Users/brian/.npm/request-promise-native/1.0.4/package/package.json not in flight; writing
+674 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+675 silly cache afterAdd sax@1.2.4
+676 verbose afterAdd /Users/brian/.npm/sax/1.2.4/package/package.json not in flight; writing
+677 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+678 silly resolveWithNewModule webidl-conversions@4.0.1 checking installable status
+679 silly cache add args [ 'webidl-conversions@^4.0.0', null ]
+680 verbose cache add spec webidl-conversions@^4.0.0
+681 silly cache add parsed spec Result {
+681 silly cache add   raw: 'webidl-conversions@^4.0.0',
+681 silly cache add   scope: null,
+681 silly cache add   escapedName: 'webidl-conversions',
+681 silly cache add   name: 'webidl-conversions',
+681 silly cache add   rawSpec: '^4.0.0',
+681 silly cache add   spec: '>=4.0.0 <5.0.0',
+681 silly cache add   type: 'range' }
+682 silly addNamed webidl-conversions@>=4.0.0 <5.0.0
+683 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for webidl-conversions
+684 silly addNameRange { name: 'webidl-conversions',
+684 silly addNameRange   range: '>=4.0.0 <5.0.0',
+684 silly addNameRange   hasData: false }
+685 silly mapToRegistry name webidl-conversions
+686 silly mapToRegistry using default registry
+687 silly mapToRegistry registry http://34.206.52.14:4873/
+688 silly mapToRegistry data Result {
+688 silly mapToRegistry   raw: 'webidl-conversions',
+688 silly mapToRegistry   scope: null,
+688 silly mapToRegistry   escapedName: 'webidl-conversions',
+688 silly mapToRegistry   name: 'webidl-conversions',
+688 silly mapToRegistry   rawSpec: '',
+688 silly mapToRegistry   spec: 'latest',
+688 silly mapToRegistry   type: 'tag' }
+689 silly mapToRegistry uri http://34.206.52.14:4873/webidl-conversions
+690 verbose addNameRange registry:http://34.206.52.14:4873/webidl-conversions not in flight; fetching
+691 silly cache afterAdd symbol-tree@3.2.2
+692 verbose afterAdd /Users/brian/.npm/symbol-tree/3.2.2/package/package.json not in flight; writing
+693 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+694 silly resolveWithNewModule whatwg-encoding@1.0.1 checking installable status
+695 silly cache add args [ 'whatwg-encoding@^1.0.1', null ]
+696 verbose cache add spec whatwg-encoding@^1.0.1
+697 silly cache add parsed spec Result {
+697 silly cache add   raw: 'whatwg-encoding@^1.0.1',
+697 silly cache add   scope: null,
+697 silly cache add   escapedName: 'whatwg-encoding',
+697 silly cache add   name: 'whatwg-encoding',
+697 silly cache add   rawSpec: '^1.0.1',
+697 silly cache add   spec: '>=1.0.1 <2.0.0',
+697 silly cache add   type: 'range' }
+698 silly addNamed whatwg-encoding@>=1.0.1 <2.0.0
+699 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for whatwg-encoding
+700 silly addNameRange { name: 'whatwg-encoding',
+700 silly addNameRange   range: '>=1.0.1 <2.0.0',
+700 silly addNameRange   hasData: false }
+701 silly mapToRegistry name whatwg-encoding
+702 silly mapToRegistry using default registry
+703 silly mapToRegistry registry http://34.206.52.14:4873/
+704 silly mapToRegistry data Result {
+704 silly mapToRegistry   raw: 'whatwg-encoding',
+704 silly mapToRegistry   scope: null,
+704 silly mapToRegistry   escapedName: 'whatwg-encoding',
+704 silly mapToRegistry   name: 'whatwg-encoding',
+704 silly mapToRegistry   rawSpec: '',
+704 silly mapToRegistry   spec: 'latest',
+704 silly mapToRegistry   type: 'tag' }
+705 silly mapToRegistry uri http://34.206.52.14:4873/whatwg-encoding
+706 verbose addNameRange registry:http://34.206.52.14:4873/whatwg-encoding not in flight; fetching
+707 http 200 http://34.206.52.14:4873/parse5
+708 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+708 verbose headers   'content-type': 'application/json; charset=utf-8',
+708 verbose headers   etag: '"4ea905a1b49ef3e8fa6a88ff7e101e39"',
+708 verbose headers   vary: 'Accept-Encoding',
+708 verbose headers   'content-encoding': 'gzip',
+708 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+708 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+708 verbose headers   connection: 'keep-alive',
+708 verbose headers   'transfer-encoding': 'chunked' }
+709 silly get cb [ 200,
+709 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+709 silly get     'content-type': 'application/json; charset=utf-8',
+709 silly get     etag: '"4ea905a1b49ef3e8fa6a88ff7e101e39"',
+709 silly get     vary: 'Accept-Encoding',
+709 silly get     'content-encoding': 'gzip',
+709 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+709 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+709 silly get     connection: 'keep-alive',
+709 silly get     'transfer-encoding': 'chunked' } ]
+710 verbose get saving parse5 to /Users/brian/.npm/34.206.52.14_4873/parse5/.cache.json
+711 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+712 verbose get http://34.206.52.14:4873/whatwg-url not expired, no request
+713 silly addNameRange number 2 { name: 'whatwg-url', range: '>=6.1.0 <7.0.0', hasData: true }
+714 silly addNameRange versions [ 'whatwg-url',
+714 silly addNameRange   [ '0.0.1',
+714 silly addNameRange     '0.1.0',
+714 silly addNameRange     '0.2.0',
+714 silly addNameRange     '0.2.1',
+714 silly addNameRange     '0.3.0',
+714 silly addNameRange     '0.3.1',
+714 silly addNameRange     '0.4.0',
+714 silly addNameRange     '0.4.1',
+714 silly addNameRange     '0.4.2',
+714 silly addNameRange     '0.5.0',
+714 silly addNameRange     '0.6.0',
+714 silly addNameRange     '0.6.1',
+714 silly addNameRange     '0.6.2',
+714 silly addNameRange     '0.6.4',
+714 silly addNameRange     '0.6.5',
+714 silly addNameRange     '1.0.0',
+714 silly addNameRange     '1.0.1',
+714 silly addNameRange     '2.0.0',
+714 silly addNameRange     '2.0.1',
+714 silly addNameRange     '3.0.0',
+714 silly addNameRange     '3.1.0',
+714 silly addNameRange     '4.0.0',
+714 silly addNameRange     '4.1.0',
+714 silly addNameRange     '4.1.1',
+714 silly addNameRange     '4.2.0',
+714 silly addNameRange     '4.3.0',
+714 silly addNameRange     '4.4.0',
+714 silly addNameRange     '4.5.0',
+714 silly addNameRange     '4.5.1',
+714 silly addNameRange     '4.6.0',
+714 silly addNameRange     '4.7.0',
+714 silly addNameRange     '4.7.1',
+714 silly addNameRange     '4.8.0',
+714 silly addNameRange     '5.0.0',
+714 silly addNameRange     '6.0.0',
+714 silly addNameRange     '6.0.1',
+714 silly addNameRange     '6.1.0' ] ]
+715 silly addNamed whatwg-url@6.1.0
+716 verbose addNamed "6.1.0" is a plain semver version for whatwg-url
+717 verbose get http://34.206.52.14:4873/webidl-conversions not expired, no request
+718 silly addNameRange number 2 { name: 'webidl-conversions',
+718 silly addNameRange   range: '>=4.0.0 <5.0.0',
+718 silly addNameRange   hasData: true }
+719 silly addNameRange versions [ 'webidl-conversions',
+719 silly addNameRange   [ '1.0.0',
+719 silly addNameRange     '1.0.1',
+719 silly addNameRange     '1.1.0',
+719 silly addNameRange     '1.2.0',
+719 silly addNameRange     '1.2.1',
+719 silly addNameRange     '2.0.0',
+719 silly addNameRange     '2.0.1',
+719 silly addNameRange     '3.0.0',
+719 silly addNameRange     '3.0.1',
+719 silly addNameRange     '4.0.0',
+719 silly addNameRange     '4.0.1' ] ]
+720 silly addNamed webidl-conversions@4.0.1
+721 verbose addNamed "4.0.1" is a plain semver version for webidl-conversions
+722 verbose get http://34.206.52.14:4873/whatwg-encoding not expired, no request
+723 silly addNameRange number 2 { name: 'whatwg-encoding',
+723 silly addNameRange   range: '>=1.0.1 <2.0.0',
+723 silly addNameRange   hasData: true }
+724 silly addNameRange versions [ 'whatwg-encoding', [ '1.0.0', '1.0.1' ] ]
+725 silly addNamed whatwg-encoding@1.0.1
+726 verbose addNamed "1.0.1" is a plain semver version for whatwg-encoding
+727 verbose afterAdd /Users/brian/.npm/pn/1.0.0/package/package.json written
+728 verbose afterAdd /Users/brian/.npm/array-equal/1.0.0/package/package.json written
+729 verbose afterAdd /Users/brian/.npm/sax/1.2.4/package/package.json written
+730 verbose afterAdd /Users/brian/.npm/escodegen/1.8.1/package/package.json written
+731 verbose afterAdd /Users/brian/.npm/request-promise-native/1.0.4/package/package.json written
+732 verbose afterAdd /Users/brian/.npm/content-type-parser/1.0.1/package/package.json written
+733 verbose afterAdd /Users/brian/.npm/symbol-tree/3.2.2/package/package.json written
+734 silly resolveWithNewModule xml-name-validator@2.0.1 checking installable status
+735 silly cache add args [ 'xml-name-validator@^2.0.1', null ]
+736 verbose cache add spec xml-name-validator@^2.0.1
+737 silly cache add parsed spec Result {
+737 silly cache add   raw: 'xml-name-validator@^2.0.1',
+737 silly cache add   scope: null,
+737 silly cache add   escapedName: 'xml-name-validator',
+737 silly cache add   name: 'xml-name-validator',
+737 silly cache add   rawSpec: '^2.0.1',
+737 silly cache add   spec: '>=2.0.1 <3.0.0',
+737 silly cache add   type: 'range' }
+738 silly addNamed xml-name-validator@>=2.0.1 <3.0.0
+739 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for xml-name-validator
+740 silly addNameRange { name: 'xml-name-validator',
+740 silly addNameRange   range: '>=2.0.1 <3.0.0',
+740 silly addNameRange   hasData: false }
+741 silly mapToRegistry name xml-name-validator
+742 silly mapToRegistry using default registry
+743 silly mapToRegistry registry http://34.206.52.14:4873/
+744 silly mapToRegistry data Result {
+744 silly mapToRegistry   raw: 'xml-name-validator',
+744 silly mapToRegistry   scope: null,
+744 silly mapToRegistry   escapedName: 'xml-name-validator',
+744 silly mapToRegistry   name: 'xml-name-validator',
+744 silly mapToRegistry   rawSpec: '',
+744 silly mapToRegistry   spec: 'latest',
+744 silly mapToRegistry   type: 'tag' }
+745 silly mapToRegistry uri http://34.206.52.14:4873/xml-name-validator
+746 verbose addNameRange registry:http://34.206.52.14:4873/xml-name-validator not in flight; fetching
+747 silly cache afterAdd whatwg-url@6.1.0
+748 verbose afterAdd /Users/brian/.npm/whatwg-url/6.1.0/package/package.json not in flight; writing
+749 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+750 silly cache afterAdd webidl-conversions@4.0.1
+751 verbose afterAdd /Users/brian/.npm/webidl-conversions/4.0.1/package/package.json not in flight; writing
+752 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+753 silly cache afterAdd whatwg-encoding@1.0.1
+754 verbose afterAdd /Users/brian/.npm/whatwg-encoding/1.0.1/package/package.json not in flight; writing
+755 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+756 http 200 http://34.206.52.14:4873/acorn
+757 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+757 verbose headers   'content-type': 'application/json; charset=utf-8',
+757 verbose headers   etag: '"3ddd72b53265f9bf479a914c73c60d3f"',
+757 verbose headers   vary: 'Accept-Encoding',
+757 verbose headers   'content-encoding': 'gzip',
+757 verbose headers   'x-status-cat': 'http://flic.kr/p/aVuVsF',
+757 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+757 verbose headers   connection: 'keep-alive',
+757 verbose headers   'transfer-encoding': 'chunked' }
+758 silly get cb [ 200,
+758 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+758 silly get     'content-type': 'application/json; charset=utf-8',
+758 silly get     etag: '"3ddd72b53265f9bf479a914c73c60d3f"',
+758 silly get     vary: 'Accept-Encoding',
+758 silly get     'content-encoding': 'gzip',
+758 silly get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+758 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+758 silly get     connection: 'keep-alive',
+758 silly get     'transfer-encoding': 'chunked' } ]
+759 verbose get saving acorn to /Users/brian/.npm/34.206.52.14_4873/acorn/.cache.json
+760 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+761 verbose get http://34.206.52.14:4873/xml-name-validator not expired, no request
+762 silly addNameRange number 2 { name: 'xml-name-validator',
+762 silly addNameRange   range: '>=2.0.1 <3.0.0',
+762 silly addNameRange   hasData: true }
+763 silly addNameRange versions [ 'xml-name-validator', [ '1.0.0', '2.0.1' ] ]
+764 silly addNamed xml-name-validator@2.0.1
+765 verbose addNamed "2.0.1" is a plain semver version for xml-name-validator
+766 silly resolveWithNewModule parse5@3.0.2 checking installable status
+767 silly cache add args [ 'parse5@^3.0.2', null ]
+768 verbose cache add spec parse5@^3.0.2
+769 silly cache add parsed spec Result {
+769 silly cache add   raw: 'parse5@^3.0.2',
+769 silly cache add   scope: null,
+769 silly cache add   escapedName: 'parse5',
+769 silly cache add   name: 'parse5',
+769 silly cache add   rawSpec: '^3.0.2',
+769 silly cache add   spec: '>=3.0.2 <4.0.0',
+769 silly cache add   type: 'range' }
+770 silly addNamed parse5@>=3.0.2 <4.0.0
+771 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for parse5
+772 silly addNameRange { name: 'parse5', range: '>=3.0.2 <4.0.0', hasData: false }
+773 silly mapToRegistry name parse5
+774 silly mapToRegistry using default registry
+775 silly mapToRegistry registry http://34.206.52.14:4873/
+776 silly mapToRegistry data Result {
+776 silly mapToRegistry   raw: 'parse5',
+776 silly mapToRegistry   scope: null,
+776 silly mapToRegistry   escapedName: 'parse5',
+776 silly mapToRegistry   name: 'parse5',
+776 silly mapToRegistry   rawSpec: '',
+776 silly mapToRegistry   spec: 'latest',
+776 silly mapToRegistry   type: 'tag' }
+777 silly mapToRegistry uri http://34.206.52.14:4873/parse5
+778 verbose addNameRange registry:http://34.206.52.14:4873/parse5 not in flight; fetching
+779 verbose afterAdd /Users/brian/.npm/whatwg-url/6.1.0/package/package.json written
+780 verbose afterAdd /Users/brian/.npm/webidl-conversions/4.0.1/package/package.json written
+781 verbose afterAdd /Users/brian/.npm/whatwg-encoding/1.0.1/package/package.json written
+782 verbose get http://34.206.52.14:4873/parse5 not expired, no request
+783 silly addNameRange number 2 { name: 'parse5', range: '>=3.0.2 <4.0.0', hasData: true }
+784 silly addNameRange versions [ 'parse5',
+784 silly addNameRange   [ '0.5.0',
+784 silly addNameRange     '0.5.1',
+784 silly addNameRange     '0.5.2',
+784 silly addNameRange     '0.5.3',
+784 silly addNameRange     '0.5.4',
+784 silly addNameRange     '0.6.0',
+784 silly addNameRange     '0.6.1',
+784 silly addNameRange     '0.8.1',
+784 silly addNameRange     '0.8.2',
+784 silly addNameRange     '0.8.3',
+784 silly addNameRange     '1.0.0',
+784 silly addNameRange     '1.0.1',
+784 silly addNameRange     '1.1.0',
+784 silly addNameRange     '1.1.1',
+784 silly addNameRange     '1.1.2',
+784 silly addNameRange     '1.1.3',
+784 silly addNameRange     '1.1.4',
+784 silly addNameRange     '1.1.5',
+784 silly addNameRange     '1.1.6',
+784 silly addNameRange     '1.2.0',
+784 silly addNameRange     '1.3.0',
+784 silly addNameRange     '1.3.1',
+784 silly addNameRange     '1.3.2',
+784 silly addNameRange     '1.4.0',
+784 silly addNameRange     '1.4.1',
+784 silly addNameRange     '1.4.2',
+784 silly addNameRange     '1.5.0',
+784 silly addNameRange     '1.5.1',
+784 silly addNameRange     '2.0.0',
+784 silly addNameRange     '2.0.1',
+784 silly addNameRange     '2.0.2',
+784 silly addNameRange     '2.1.0',
+784 silly addNameRange     '2.1.1',
+784 silly addNameRange     '2.1.2',
+784 silly addNameRange     '2.1.3',
+784 silly addNameRange     '2.1.4',
+784 silly addNameRange     '2.1.5',
+784 silly addNameRange     '2.2.0',
+784 silly addNameRange     '2.2.1',
+784 silly addNameRange     '2.2.2',
+784 silly addNameRange     '2.2.3',
+784 silly addNameRange     '3.0.0',
+784 silly addNameRange     '3.0.1',
+784 silly addNameRange     '3.0.2' ] ]
+785 silly addNamed parse5@3.0.2
+786 verbose addNamed "3.0.2" is a plain semver version for parse5
+787 silly cache afterAdd xml-name-validator@2.0.1
+788 verbose afterAdd /Users/brian/.npm/xml-name-validator/2.0.1/package/package.json not in flight; writing
+789 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+790 silly resolveWithNewModule acorn@4.0.13 checking installable status
+791 silly cache add args [ 'acorn@^4.0.4', null ]
+792 verbose cache add spec acorn@^4.0.4
+793 silly cache add parsed spec Result {
+793 silly cache add   raw: 'acorn@^4.0.4',
+793 silly cache add   scope: null,
+793 silly cache add   escapedName: 'acorn',
+793 silly cache add   name: 'acorn',
+793 silly cache add   rawSpec: '^4.0.4',
+793 silly cache add   spec: '>=4.0.4 <5.0.0',
+793 silly cache add   type: 'range' }
+794 silly addNamed acorn@>=4.0.4 <5.0.0
+795 verbose addNamed ">=4.0.4 <5.0.0" is a valid semver range for acorn
+796 silly addNameRange { name: 'acorn', range: '>=4.0.4 <5.0.0', hasData: false }
+797 silly mapToRegistry name acorn
+798 silly mapToRegistry using default registry
+799 silly mapToRegistry registry http://34.206.52.14:4873/
+800 silly mapToRegistry data Result {
+800 silly mapToRegistry   raw: 'acorn',
+800 silly mapToRegistry   scope: null,
+800 silly mapToRegistry   escapedName: 'acorn',
+800 silly mapToRegistry   name: 'acorn',
+800 silly mapToRegistry   rawSpec: '',
+800 silly mapToRegistry   spec: 'latest',
+800 silly mapToRegistry   type: 'tag' }
+801 silly mapToRegistry uri http://34.206.52.14:4873/acorn
+802 verbose addNameRange registry:http://34.206.52.14:4873/acorn not in flight; fetching
+803 silly cache afterAdd parse5@3.0.2
+804 verbose afterAdd /Users/brian/.npm/parse5/3.0.2/package/package.json not in flight; writing
+805 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+806 verbose afterAdd /Users/brian/.npm/xml-name-validator/2.0.1/package/package.json written
+807 verbose get http://34.206.52.14:4873/acorn not expired, no request
+808 silly addNameRange number 2 { name: 'acorn', range: '>=4.0.4 <5.0.0', hasData: true }
+809 silly addNameRange versions [ 'acorn',
+809 silly addNameRange   [ '0.0.1',
+809 silly addNameRange     '0.1.0',
+809 silly addNameRange     '0.2.0',
+809 silly addNameRange     '0.3.0',
+809 silly addNameRange     '0.3.1',
+809 silly addNameRange     '0.4.0',
+809 silly addNameRange     '0.4.2',
+809 silly addNameRange     '0.5.0',
+809 silly addNameRange     '0.6.0',
+809 silly addNameRange     '0.7.0',
+809 silly addNameRange     '0.8.0',
+809 silly addNameRange     '0.9.0',
+809 silly addNameRange     '0.10.0',
+809 silly addNameRange     '0.11.0',
+809 silly addNameRange     '0.12.0',
+809 silly addNameRange     '1.0.0',
+809 silly addNameRange     '1.0.1',
+809 silly addNameRange     '1.0.3',
+809 silly addNameRange     '1.1.0',
+809 silly addNameRange     '1.2.0',
+809 silly addNameRange     '2.0.0',
+809 silly addNameRange     '1.2.1',
+809 silly addNameRange     '2.0.1',
+809 silly addNameRange     '1.2.2',
+809 silly addNameRange     '2.0.4',
+809 silly addNameRange     '2.1.0',
+809 silly addNameRange     '2.2.0',
+809 silly addNameRange     '2.3.0',
+809 silly addNameRange     '2.4.0',
+809 silly addNameRange     '2.5.0',
+809 silly addNameRange     '2.5.2',
+809 silly addNameRange     '2.6.0',
+809 silly addNameRange     '2.6.2',
+809 silly addNameRange     '2.6.4',
+809 silly addNameRange     '2.7.0',
+809 silly addNameRange     '3.0.0',
+809 silly addNameRange     '3.0.2',
+809 silly addNameRange     '3.0.4',
+809 silly addNameRange     '3.1.0',
+809 silly addNameRange     '3.2.0',
+809 silly addNameRange     '3.3.0',
+809 silly addNameRange     '4.0.0',
+809 silly addNameRange     '4.0.1',
+809 silly addNameRange     '4.0.2',
+809 silly addNameRange     '4.0.3',
+809 silly addNameRange     '4.0.4',
+809 silly addNameRange     '4.0.5',
+809 silly addNameRange     '4.0.6',
+809 silly addNameRange     '4.0.7',
+809 silly addNameRange     '4.0.8',
+809 silly addNameRange     '4.0.9',
+809 silly addNameRange     '4.0.10',
+809 silly addNameRange     '4.0.11',
+809 silly addNameRange     '5.0.0',
+809 silly addNameRange     '5.0.1',
+809 silly addNameRange     '5.0.2',
+809 silly addNameRange     '5.0.3',
+809 silly addNameRange     '4.0.13',
+809 silly addNameRange     '5.1.0',
+809 silly addNameRange     '5.1.1' ] ]
+810 silly addNamed acorn@4.0.13
+811 verbose addNamed "4.0.13" is a plain semver version for acorn
+812 verbose afterAdd /Users/brian/.npm/parse5/3.0.2/package/package.json written
+813 silly cache afterAdd acorn@4.0.13
+814 verbose afterAdd /Users/brian/.npm/acorn/4.0.13/package/package.json not in flight; writing
+815 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+816 verbose afterAdd /Users/brian/.npm/acorn/4.0.13/package/package.json written
+817 silly fetchNamedPackageData estraverse
+818 silly mapToRegistry name estraverse
+819 silly mapToRegistry using default registry
+820 silly mapToRegistry registry http://34.206.52.14:4873/
+821 silly mapToRegistry data Result {
+821 silly mapToRegistry   raw: 'estraverse',
+821 silly mapToRegistry   scope: null,
+821 silly mapToRegistry   escapedName: 'estraverse',
+821 silly mapToRegistry   name: 'estraverse',
+821 silly mapToRegistry   rawSpec: '',
+821 silly mapToRegistry   spec: 'latest',
+821 silly mapToRegistry   type: 'tag' }
+822 silly mapToRegistry uri http://34.206.52.14:4873/estraverse
+823 silly fetchNamedPackageData esutils
+824 silly mapToRegistry name esutils
+825 silly mapToRegistry using default registry
+826 silly mapToRegistry registry http://34.206.52.14:4873/
+827 silly mapToRegistry data Result {
+827 silly mapToRegistry   raw: 'esutils',
+827 silly mapToRegistry   scope: null,
+827 silly mapToRegistry   escapedName: 'esutils',
+827 silly mapToRegistry   name: 'esutils',
+827 silly mapToRegistry   rawSpec: '',
+827 silly mapToRegistry   spec: 'latest',
+827 silly mapToRegistry   type: 'tag' }
+828 silly mapToRegistry uri http://34.206.52.14:4873/esutils
+829 silly fetchNamedPackageData esprima
+830 silly mapToRegistry name esprima
+831 silly mapToRegistry using default registry
+832 silly mapToRegistry registry http://34.206.52.14:4873/
+833 silly mapToRegistry data Result {
+833 silly mapToRegistry   raw: 'esprima',
+833 silly mapToRegistry   scope: null,
+833 silly mapToRegistry   escapedName: 'esprima',
+833 silly mapToRegistry   name: 'esprima',
+833 silly mapToRegistry   rawSpec: '',
+833 silly mapToRegistry   spec: 'latest',
+833 silly mapToRegistry   type: 'tag' }
+834 silly mapToRegistry uri http://34.206.52.14:4873/esprima
+835 silly fetchNamedPackageData optionator
+836 silly mapToRegistry name optionator
+837 silly mapToRegistry using default registry
+838 silly mapToRegistry registry http://34.206.52.14:4873/
+839 silly mapToRegistry data Result {
+839 silly mapToRegistry   raw: 'optionator',
+839 silly mapToRegistry   scope: null,
+839 silly mapToRegistry   escapedName: 'optionator',
+839 silly mapToRegistry   name: 'optionator',
+839 silly mapToRegistry   rawSpec: '',
+839 silly mapToRegistry   spec: 'latest',
+839 silly mapToRegistry   type: 'tag' }
+840 silly mapToRegistry uri http://34.206.52.14:4873/optionator
+841 silly fetchNamedPackageData source-map
+842 silly mapToRegistry name source-map
+843 silly mapToRegistry using default registry
+844 silly mapToRegistry registry http://34.206.52.14:4873/
+845 silly mapToRegistry data Result {
+845 silly mapToRegistry   raw: 'source-map',
+845 silly mapToRegistry   scope: null,
+845 silly mapToRegistry   escapedName: 'source-map',
+845 silly mapToRegistry   name: 'source-map',
+845 silly mapToRegistry   rawSpec: '',
+845 silly mapToRegistry   spec: 'latest',
+845 silly mapToRegistry   type: 'tag' }
+846 silly mapToRegistry uri http://34.206.52.14:4873/source-map
+847 verbose request uri http://34.206.52.14:4873/esutils
+848 verbose request no auth needed
+849 info attempt registry request try #1 at 10:45:27 PM
+850 verbose request using bearer token for auth
+851 verbose etag "b21a7208beb9047340cf1f084b57b5c4"
+852 http request GET http://34.206.52.14:4873/esutils
+853 verbose request uri http://34.206.52.14:4873/optionator
+854 verbose request no auth needed
+855 info attempt registry request try #1 at 10:45:27 PM
+856 verbose request using bearer token for auth
+857 verbose etag "f4ee5e0be9cbe33bae841a42c8348745"
+858 http request GET http://34.206.52.14:4873/optionator
+859 verbose request uri http://34.206.52.14:4873/esprima
+860 verbose request no auth needed
+861 info attempt registry request try #1 at 10:45:27 PM
+862 verbose request using bearer token for auth
+863 verbose etag "f4bd936bdfe668e857eb77cec9926075"
+864 http request GET http://34.206.52.14:4873/esprima
+865 verbose request uri http://34.206.52.14:4873/estraverse
+866 verbose request no auth needed
+867 info attempt registry request try #1 at 10:45:27 PM
+868 verbose request using bearer token for auth
+869 verbose etag "63d7c04a0d51633f6f8b795c53fa0a26"
+870 http request GET http://34.206.52.14:4873/estraverse
+871 verbose request uri http://34.206.52.14:4873/source-map
+872 verbose request no auth needed
+873 info attempt registry request try #1 at 10:45:27 PM
+874 verbose request using bearer token for auth
+875 verbose etag "8aea61ed3ae8e586e729f6a51df308f5"
+876 http request GET http://34.206.52.14:4873/source-map
+877 http 304 http://34.206.52.14:4873/esutils
+878 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+878 verbose headers   etag: '"b21a7208beb9047340cf1f084b57b5c4"',
+878 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+878 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+878 verbose headers   connection: 'keep-alive' }
+879 silly get cb [ 304,
+879 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+879 silly get     etag: '"b21a7208beb9047340cf1f084b57b5c4"',
+879 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+879 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+879 silly get     connection: 'keep-alive' } ]
+880 verbose etag http://34.206.52.14:4873/esutils from cache
+881 verbose get saving esutils to /Users/brian/.npm/34.206.52.14_4873/esutils/.cache.json
+882 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+883 http 304 http://34.206.52.14:4873/optionator
+884 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+884 verbose headers   etag: '"f4ee5e0be9cbe33bae841a42c8348745"',
+884 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+884 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+884 verbose headers   connection: 'keep-alive' }
+885 silly get cb [ 304,
+885 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+885 silly get     etag: '"f4ee5e0be9cbe33bae841a42c8348745"',
+885 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+885 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+885 silly get     connection: 'keep-alive' } ]
+886 verbose etag http://34.206.52.14:4873/optionator from cache
+887 verbose get saving optionator to /Users/brian/.npm/34.206.52.14_4873/optionator/.cache.json
+888 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+889 silly resolveWithNewModule optionator@0.8.2 checking installable status
+890 silly cache add args [ 'optionator@^0.8.1', null ]
+891 verbose cache add spec optionator@^0.8.1
+892 silly cache add parsed spec Result {
+892 silly cache add   raw: 'optionator@^0.8.1',
+892 silly cache add   scope: null,
+892 silly cache add   escapedName: 'optionator',
+892 silly cache add   name: 'optionator',
+892 silly cache add   rawSpec: '^0.8.1',
+892 silly cache add   spec: '>=0.8.1 <0.9.0',
+892 silly cache add   type: 'range' }
+893 silly addNamed optionator@>=0.8.1 <0.9.0
+894 verbose addNamed ">=0.8.1 <0.9.0" is a valid semver range for optionator
+895 silly addNameRange { name: 'optionator', range: '>=0.8.1 <0.9.0', hasData: false }
+896 silly mapToRegistry name optionator
+897 silly mapToRegistry using default registry
+898 silly mapToRegistry registry http://34.206.52.14:4873/
+899 silly mapToRegistry data Result {
+899 silly mapToRegistry   raw: 'optionator',
+899 silly mapToRegistry   scope: null,
+899 silly mapToRegistry   escapedName: 'optionator',
+899 silly mapToRegistry   name: 'optionator',
+899 silly mapToRegistry   rawSpec: '',
+899 silly mapToRegistry   spec: 'latest',
+899 silly mapToRegistry   type: 'tag' }
+900 silly mapToRegistry uri http://34.206.52.14:4873/optionator
+901 verbose addNameRange registry:http://34.206.52.14:4873/optionator not in flight; fetching
+902 silly resolveWithNewModule esutils@2.0.2 checking installable status
+903 silly cache add args [ 'esutils@^2.0.2', null ]
+904 verbose cache add spec esutils@^2.0.2
+905 silly cache add parsed spec Result {
+905 silly cache add   raw: 'esutils@^2.0.2',
+905 silly cache add   scope: null,
+905 silly cache add   escapedName: 'esutils',
+905 silly cache add   name: 'esutils',
+905 silly cache add   rawSpec: '^2.0.2',
+905 silly cache add   spec: '>=2.0.2 <3.0.0',
+905 silly cache add   type: 'range' }
+906 silly addNamed esutils@>=2.0.2 <3.0.0
+907 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for esutils
+908 silly addNameRange { name: 'esutils', range: '>=2.0.2 <3.0.0', hasData: false }
+909 silly mapToRegistry name esutils
+910 silly mapToRegistry using default registry
+911 silly mapToRegistry registry http://34.206.52.14:4873/
+912 silly mapToRegistry data Result {
+912 silly mapToRegistry   raw: 'esutils',
+912 silly mapToRegistry   scope: null,
+912 silly mapToRegistry   escapedName: 'esutils',
+912 silly mapToRegistry   name: 'esutils',
+912 silly mapToRegistry   rawSpec: '',
+912 silly mapToRegistry   spec: 'latest',
+912 silly mapToRegistry   type: 'tag' }
+913 silly mapToRegistry uri http://34.206.52.14:4873/esutils
+914 verbose addNameRange registry:http://34.206.52.14:4873/esutils not in flight; fetching
+915 verbose get http://34.206.52.14:4873/optionator not expired, no request
+916 silly addNameRange number 2 { name: 'optionator', range: '>=0.8.1 <0.9.0', hasData: true }
+917 silly addNameRange versions [ 'optionator',
+917 silly addNameRange   [ '0.1.0',
+917 silly addNameRange     '0.1.1',
+917 silly addNameRange     '0.2.0',
+917 silly addNameRange     '0.2.1',
+917 silly addNameRange     '0.2.2',
+917 silly addNameRange     '0.3.0',
+917 silly addNameRange     '0.4.0',
+917 silly addNameRange     '0.5.0',
+917 silly addNameRange     '0.6.0',
+917 silly addNameRange     '0.7.0',
+917 silly addNameRange     '0.7.1',
+917 silly addNameRange     '0.8.0',
+917 silly addNameRange     '0.8.1',
+917 silly addNameRange     '0.8.2' ] ]
+918 silly addNamed optionator@0.8.2
+919 verbose addNamed "0.8.2" is a plain semver version for optionator
+920 verbose get http://34.206.52.14:4873/esutils not expired, no request
+921 silly addNameRange number 2 { name: 'esutils', range: '>=2.0.2 <3.0.0', hasData: true }
+922 silly addNameRange versions [ 'esutils',
+922 silly addNameRange   [ '1.0.0',
+922 silly addNameRange     '1.1.0',
+922 silly addNameRange     '1.1.1',
+922 silly addNameRange     '1.1.2',
+922 silly addNameRange     '1.1.3',
+922 silly addNameRange     '1.1.4',
+922 silly addNameRange     '1.1.5-dev',
+922 silly addNameRange     '1.1.5',
+922 silly addNameRange     '1.1.6',
+922 silly addNameRange     '2.0.0',
+922 silly addNameRange     '2.0.1',
+922 silly addNameRange     '2.0.2' ] ]
+923 silly addNamed esutils@2.0.2
+924 verbose addNamed "2.0.2" is a plain semver version for esutils
+925 silly cache afterAdd optionator@0.8.2
+926 verbose afterAdd /Users/brian/.npm/optionator/0.8.2/package/package.json not in flight; writing
+927 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+928 silly cache afterAdd esutils@2.0.2
+929 verbose afterAdd /Users/brian/.npm/esutils/2.0.2/package/package.json not in flight; writing
+930 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+931 verbose afterAdd /Users/brian/.npm/optionator/0.8.2/package/package.json written
+932 verbose afterAdd /Users/brian/.npm/esutils/2.0.2/package/package.json written
+933 http 304 http://34.206.52.14:4873/esprima
+934 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+934 verbose headers   etag: '"f4bd936bdfe668e857eb77cec9926075"',
+934 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+934 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+934 verbose headers   connection: 'keep-alive' }
+935 silly get cb [ 304,
+935 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+935 silly get     etag: '"f4bd936bdfe668e857eb77cec9926075"',
+935 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+935 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+935 silly get     connection: 'keep-alive' } ]
+936 verbose etag http://34.206.52.14:4873/esprima from cache
+937 verbose get saving esprima to /Users/brian/.npm/34.206.52.14_4873/esprima/.cache.json
+938 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+939 silly resolveWithNewModule esprima@2.7.3 checking installable status
+940 silly cache add args [ 'esprima@^2.7.1', null ]
+941 verbose cache add spec esprima@^2.7.1
+942 silly cache add parsed spec Result {
+942 silly cache add   raw: 'esprima@^2.7.1',
+942 silly cache add   scope: null,
+942 silly cache add   escapedName: 'esprima',
+942 silly cache add   name: 'esprima',
+942 silly cache add   rawSpec: '^2.7.1',
+942 silly cache add   spec: '>=2.7.1 <3.0.0',
+942 silly cache add   type: 'range' }
+943 silly addNamed esprima@>=2.7.1 <3.0.0
+944 verbose addNamed ">=2.7.1 <3.0.0" is a valid semver range for esprima
+945 silly addNameRange { name: 'esprima', range: '>=2.7.1 <3.0.0', hasData: false }
+946 silly mapToRegistry name esprima
+947 silly mapToRegistry using default registry
+948 silly mapToRegistry registry http://34.206.52.14:4873/
+949 silly mapToRegistry data Result {
+949 silly mapToRegistry   raw: 'esprima',
+949 silly mapToRegistry   scope: null,
+949 silly mapToRegistry   escapedName: 'esprima',
+949 silly mapToRegistry   name: 'esprima',
+949 silly mapToRegistry   rawSpec: '',
+949 silly mapToRegistry   spec: 'latest',
+949 silly mapToRegistry   type: 'tag' }
+950 silly mapToRegistry uri http://34.206.52.14:4873/esprima
+951 verbose addNameRange registry:http://34.206.52.14:4873/esprima not in flight; fetching
+952 verbose get http://34.206.52.14:4873/esprima not expired, no request
+953 silly addNameRange number 2 { name: 'esprima', range: '>=2.7.1 <3.0.0', hasData: true }
+954 silly addNameRange versions [ 'esprima',
+954 silly addNameRange   [ '0.7.0',
+954 silly addNameRange     '0.8.0',
+954 silly addNameRange     '0.8.1',
+954 silly addNameRange     '0.8.2',
+954 silly addNameRange     '0.9.0',
+954 silly addNameRange     '0.9.1',
+954 silly addNameRange     '0.9.2',
+954 silly addNameRange     '0.9.3',
+954 silly addNameRange     '0.9.4',
+954 silly addNameRange     '0.9.5',
+954 silly addNameRange     '0.9.6',
+954 silly addNameRange     '0.9.7',
+954 silly addNameRange     '0.9.8',
+954 silly addNameRange     '0.9.9',
+954 silly addNameRange     '1.0.0',
+954 silly addNameRange     '1.0.1',
+954 silly addNameRange     '1.0.2',
+954 silly addNameRange     '1.0.3',
+954 silly addNameRange     '1.0.4',
+954 silly addNameRange     '1.1.0',
+954 silly addNameRange     '1.1.1',
+954 silly addNameRange     '1.2.0',
+954 silly addNameRange     '1.2.1',
+954 silly addNameRange     '1.2.2',
+954 silly addNameRange     '1.2.3',
+954 silly addNameRange     '1.2.4',
+954 silly addNameRange     '2.0.0',
+954 silly addNameRange     '1.2.5',
+954 silly addNameRange     '2.1.0',
+954 silly addNameRange     '2.2.0',
+954 silly addNameRange     '2.3.0',
+954 silly addNameRange     '2.4.0',
+954 silly addNameRange     '2.4.1',
+954 silly addNameRange     '2.5.0',
+954 silly addNameRange     '2.6.0',
+954 silly addNameRange     '2.7.0',
+954 silly addNameRange     '2.7.1',
+954 silly addNameRange     '2.7.2',
+954 silly addNameRange     '2.7.3',
+954 silly addNameRange     '3.0.0',
+954 silly addNameRange     '3.1.0',
+954 silly addNameRange     '3.1.1',
+954 silly addNameRange     '3.1.2',
+954 silly addNameRange     '3.1.3',
+954 silly addNameRange     '4.0.0' ] ]
+955 silly addNamed esprima@2.7.3
+956 verbose addNamed "2.7.3" is a plain semver version for esprima
+957 silly cache afterAdd esprima@2.7.3
+958 verbose afterAdd /Users/brian/.npm/esprima/2.7.3/package/package.json not in flight; writing
+959 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+960 verbose afterAdd /Users/brian/.npm/esprima/2.7.3/package/package.json written
+961 http 304 http://34.206.52.14:4873/estraverse
+962 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+962 verbose headers   etag: '"63d7c04a0d51633f6f8b795c53fa0a26"',
+962 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+962 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+962 verbose headers   connection: 'keep-alive' }
+963 silly get cb [ 304,
+963 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+963 silly get     etag: '"63d7c04a0d51633f6f8b795c53fa0a26"',
+963 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+963 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+963 silly get     connection: 'keep-alive' } ]
+964 verbose etag http://34.206.52.14:4873/estraverse from cache
+965 verbose get saving estraverse to /Users/brian/.npm/34.206.52.14_4873/estraverse/.cache.json
+966 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+967 http 304 http://34.206.52.14:4873/source-map
+968 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+968 verbose headers   etag: '"8aea61ed3ae8e586e729f6a51df308f5"',
+968 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+968 verbose headers   date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+968 verbose headers   connection: 'keep-alive' }
+969 silly get cb [ 304,
+969 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+969 silly get     etag: '"8aea61ed3ae8e586e729f6a51df308f5"',
+969 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+969 silly get     date: 'Sun, 23 Jul 2017 02:45:28 GMT',
+969 silly get     connection: 'keep-alive' } ]
+970 verbose etag http://34.206.52.14:4873/source-map from cache
+971 verbose get saving source-map to /Users/brian/.npm/34.206.52.14_4873/source-map/.cache.json
+972 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+973 silly resolveWithNewModule estraverse@1.9.3 checking installable status
+974 silly cache add args [ 'estraverse@^1.9.1', null ]
+975 verbose cache add spec estraverse@^1.9.1
+976 silly cache add parsed spec Result {
+976 silly cache add   raw: 'estraverse@^1.9.1',
+976 silly cache add   scope: null,
+976 silly cache add   escapedName: 'estraverse',
+976 silly cache add   name: 'estraverse',
+976 silly cache add   rawSpec: '^1.9.1',
+976 silly cache add   spec: '>=1.9.1 <2.0.0',
+976 silly cache add   type: 'range' }
+977 silly addNamed estraverse@>=1.9.1 <2.0.0
+978 verbose addNamed ">=1.9.1 <2.0.0" is a valid semver range for estraverse
+979 silly addNameRange { name: 'estraverse', range: '>=1.9.1 <2.0.0', hasData: false }
+980 silly mapToRegistry name estraverse
+981 silly mapToRegistry using default registry
+982 silly mapToRegistry registry http://34.206.52.14:4873/
+983 silly mapToRegistry data Result {
+983 silly mapToRegistry   raw: 'estraverse',
+983 silly mapToRegistry   scope: null,
+983 silly mapToRegistry   escapedName: 'estraverse',
+983 silly mapToRegistry   name: 'estraverse',
+983 silly mapToRegistry   rawSpec: '',
+983 silly mapToRegistry   spec: 'latest',
+983 silly mapToRegistry   type: 'tag' }
+984 silly mapToRegistry uri http://34.206.52.14:4873/estraverse
+985 verbose addNameRange registry:http://34.206.52.14:4873/estraverse not in flight; fetching
+986 verbose get http://34.206.52.14:4873/estraverse not expired, no request
+987 silly addNameRange number 2 { name: 'estraverse', range: '>=1.9.1 <2.0.0', hasData: true }
+988 silly addNameRange versions [ 'estraverse',
+988 silly addNameRange   [ '0.0.1',
+988 silly addNameRange     '0.0.2',
+988 silly addNameRange     '0.0.3',
+988 silly addNameRange     '0.0.4',
+988 silly addNameRange     '1.0.0',
+988 silly addNameRange     '1.1.0',
+988 silly addNameRange     '1.1.1',
+988 silly addNameRange     '1.1.2-1',
+988 silly addNameRange     '1.2.0',
+988 silly addNameRange     '1.3.0',
+988 silly addNameRange     '1.3.1',
+988 silly addNameRange     '1.3.2',
+988 silly addNameRange     '1.4.0',
+988 silly addNameRange     '1.5.0',
+988 silly addNameRange     '1.5.1',
+988 silly addNameRange     '1.6.0',
+988 silly addNameRange     '1.7.0',
+988 silly addNameRange     '1.7.1',
+988 silly addNameRange     '1.8.0',
+988 silly addNameRange     '1.9.0',
+988 silly addNameRange     '1.9.1',
+988 silly addNameRange     '1.9.3',
+988 silly addNameRange     '2.0.0',
+988 silly addNameRange     '3.0.0',
+988 silly addNameRange     '3.1.0',
+988 silly addNameRange     '4.0.0',
+988 silly addNameRange     '4.1.0',
+988 silly addNameRange     '4.1.1',
+988 silly addNameRange     '4.2.0' ] ]
+989 silly addNamed estraverse@1.9.3
+990 verbose addNamed "1.9.3" is a plain semver version for estraverse
+991 silly cache afterAdd estraverse@1.9.3
+992 verbose afterAdd /Users/brian/.npm/estraverse/1.9.3/package/package.json not in flight; writing
+993 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+994 silly resolveWithNewModule source-map@0.2.0 checking installable status
+995 silly cache add args [ 'source-map@~0.2.0', null ]
+996 verbose cache add spec source-map@~0.2.0
+997 silly cache add parsed spec Result {
+997 silly cache add   raw: 'source-map@~0.2.0',
+997 silly cache add   scope: null,
+997 silly cache add   escapedName: 'source-map',
+997 silly cache add   name: 'source-map',
+997 silly cache add   rawSpec: '~0.2.0',
+997 silly cache add   spec: '>=0.2.0 <0.3.0',
+997 silly cache add   type: 'range' }
+998 silly addNamed source-map@>=0.2.0 <0.3.0
+999 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for source-map
+1000 silly addNameRange { name: 'source-map', range: '>=0.2.0 <0.3.0', hasData: false }
+1001 silly mapToRegistry name source-map
+1002 silly mapToRegistry using default registry
+1003 silly mapToRegistry registry http://34.206.52.14:4873/
+1004 silly mapToRegistry data Result {
+1004 silly mapToRegistry   raw: 'source-map',
+1004 silly mapToRegistry   scope: null,
+1004 silly mapToRegistry   escapedName: 'source-map',
+1004 silly mapToRegistry   name: 'source-map',
+1004 silly mapToRegistry   rawSpec: '',
+1004 silly mapToRegistry   spec: 'latest',
+1004 silly mapToRegistry   type: 'tag' }
+1005 silly mapToRegistry uri http://34.206.52.14:4873/source-map
+1006 verbose addNameRange registry:http://34.206.52.14:4873/source-map not in flight; fetching
+1007 verbose get http://34.206.52.14:4873/source-map not expired, no request
+1008 silly addNameRange number 2 { name: 'source-map', range: '>=0.2.0 <0.3.0', hasData: true }
+1009 silly addNameRange versions [ 'source-map',
+1009 silly addNameRange   [ '0.0.0',
+1009 silly addNameRange     '0.1.0',
+1009 silly addNameRange     '0.1.1',
+1009 silly addNameRange     '0.1.2',
+1009 silly addNameRange     '0.1.3',
+1009 silly addNameRange     '0.1.4',
+1009 silly addNameRange     '0.1.5',
+1009 silly addNameRange     '0.1.6',
+1009 silly addNameRange     '0.1.7',
+1009 silly addNameRange     '0.1.8',
+1009 silly addNameRange     '0.1.9',
+1009 silly addNameRange     '0.1.10',
+1009 silly addNameRange     '0.1.11',
+1009 silly addNameRange     '0.1.12',
+1009 silly addNameRange     '0.1.13',
+1009 silly addNameRange     '0.1.14',
+1009 silly addNameRange     '0.1.15',
+1009 silly addNameRange     '0.1.16',
+1009 silly addNameRange     '0.1.17',
+1009 silly addNameRange     '0.1.18',
+1009 silly addNameRange     '0.1.19',
+1009 silly addNameRange     '0.1.20',
+1009 silly addNameRange     '0.1.21',
+1009 silly addNameRange     '0.1.22',
+1009 silly addNameRange     '0.1.23',
+1009 silly addNameRange     '0.1.24',
+1009 silly addNameRange     '0.1.25',
+1009 silly addNameRange     '0.1.26',
+1009 silly addNameRange     '0.1.27',
+1009 silly addNameRange     '0.1.28',
+1009 silly addNameRange     '0.1.29',
+1009 silly addNameRange     '0.1.30',
+1009 silly addNameRange     '0.1.31',
+1009 silly addNameRange     '0.1.32',
+1009 silly addNameRange     '0.1.33',
+1009 silly addNameRange     '0.1.34',
+1009 silly addNameRange     '0.1.35',
+1009 silly addNameRange     '0.1.36',
+1009 silly addNameRange     '0.1.37',
+1009 silly addNameRange     '0.1.38',
+1009 silly addNameRange     '0.1.39',
+1009 silly addNameRange     '0.1.40',
+1009 silly addNameRange     '0.1.41',
+1009 silly addNameRange     '0.1.42',
+1009 silly addNameRange     '0.1.43',
+1009 silly addNameRange     '0.2.0',
+1009 silly addNameRange     '0.3.0',
+1009 silly addNameRange     '0.4.0',
+1009 silly addNameRange     '0.4.1',
+1009 silly addNameRange     '0.4.2',
+1009 silly addNameRange     '0.4.3',
+1009 silly addNameRange     '0.4.4',
+1009 silly addNameRange     '0.5.0',
+1009 silly addNameRange     '0.5.1',
+1009 silly addNameRange     '0.5.2',
+1009 silly addNameRange     '0.5.3',
+1009 silly addNameRange     '0.5.4',
+1009 silly addNameRange     '0.5.5',
+1009 silly addNameRange     '0.5.6' ] ]
+1010 silly addNamed source-map@0.2.0
+1011 verbose addNamed "0.2.0" is a plain semver version for source-map
+1012 verbose afterAdd /Users/brian/.npm/estraverse/1.9.3/package/package.json written
+1013 silly cache afterAdd source-map@0.2.0
+1014 verbose afterAdd /Users/brian/.npm/source-map/0.2.0/package/package.json not in flight; writing
+1015 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1016 verbose afterAdd /Users/brian/.npm/source-map/0.2.0/package/package.json written
+1017 silly fetchNamedPackageData prelude-ls
+1018 silly mapToRegistry name prelude-ls
+1019 silly mapToRegistry using default registry
+1020 silly mapToRegistry registry http://34.206.52.14:4873/
+1021 silly mapToRegistry data Result {
+1021 silly mapToRegistry   raw: 'prelude-ls',
+1021 silly mapToRegistry   scope: null,
+1021 silly mapToRegistry   escapedName: 'prelude-ls',
+1021 silly mapToRegistry   name: 'prelude-ls',
+1021 silly mapToRegistry   rawSpec: '',
+1021 silly mapToRegistry   spec: 'latest',
+1021 silly mapToRegistry   type: 'tag' }
+1022 silly mapToRegistry uri http://34.206.52.14:4873/prelude-ls
+1023 silly fetchNamedPackageData deep-is
+1024 silly mapToRegistry name deep-is
+1025 silly mapToRegistry using default registry
+1026 silly mapToRegistry registry http://34.206.52.14:4873/
+1027 silly mapToRegistry data Result {
+1027 silly mapToRegistry   raw: 'deep-is',
+1027 silly mapToRegistry   scope: null,
+1027 silly mapToRegistry   escapedName: 'deep-is',
+1027 silly mapToRegistry   name: 'deep-is',
+1027 silly mapToRegistry   rawSpec: '',
+1027 silly mapToRegistry   spec: 'latest',
+1027 silly mapToRegistry   type: 'tag' }
+1028 silly mapToRegistry uri http://34.206.52.14:4873/deep-is
+1029 silly fetchNamedPackageData wordwrap
+1030 silly mapToRegistry name wordwrap
+1031 silly mapToRegistry using default registry
+1032 silly mapToRegistry registry http://34.206.52.14:4873/
+1033 silly mapToRegistry data Result {
+1033 silly mapToRegistry   raw: 'wordwrap',
+1033 silly mapToRegistry   scope: null,
+1033 silly mapToRegistry   escapedName: 'wordwrap',
+1033 silly mapToRegistry   name: 'wordwrap',
+1033 silly mapToRegistry   rawSpec: '',
+1033 silly mapToRegistry   spec: 'latest',
+1033 silly mapToRegistry   type: 'tag' }
+1034 silly mapToRegistry uri http://34.206.52.14:4873/wordwrap
+1035 silly fetchNamedPackageData type-check
+1036 silly mapToRegistry name type-check
+1037 silly mapToRegistry using default registry
+1038 silly mapToRegistry registry http://34.206.52.14:4873/
+1039 silly mapToRegistry data Result {
+1039 silly mapToRegistry   raw: 'type-check',
+1039 silly mapToRegistry   scope: null,
+1039 silly mapToRegistry   escapedName: 'type-check',
+1039 silly mapToRegistry   name: 'type-check',
+1039 silly mapToRegistry   rawSpec: '',
+1039 silly mapToRegistry   spec: 'latest',
+1039 silly mapToRegistry   type: 'tag' }
+1040 silly mapToRegistry uri http://34.206.52.14:4873/type-check
+1041 silly fetchNamedPackageData levn
+1042 silly mapToRegistry name levn
+1043 silly mapToRegistry using default registry
+1044 silly mapToRegistry registry http://34.206.52.14:4873/
+1045 silly mapToRegistry data Result {
+1045 silly mapToRegistry   raw: 'levn',
+1045 silly mapToRegistry   scope: null,
+1045 silly mapToRegistry   escapedName: 'levn',
+1045 silly mapToRegistry   name: 'levn',
+1045 silly mapToRegistry   rawSpec: '',
+1045 silly mapToRegistry   spec: 'latest',
+1045 silly mapToRegistry   type: 'tag' }
+1046 silly mapToRegistry uri http://34.206.52.14:4873/levn
+1047 silly fetchNamedPackageData fast-levenshtein
+1048 silly mapToRegistry name fast-levenshtein
+1049 silly mapToRegistry using default registry
+1050 silly mapToRegistry registry http://34.206.52.14:4873/
+1051 silly mapToRegistry data Result {
+1051 silly mapToRegistry   raw: 'fast-levenshtein',
+1051 silly mapToRegistry   scope: null,
+1051 silly mapToRegistry   escapedName: 'fast-levenshtein',
+1051 silly mapToRegistry   name: 'fast-levenshtein',
+1051 silly mapToRegistry   rawSpec: '',
+1051 silly mapToRegistry   spec: 'latest',
+1051 silly mapToRegistry   type: 'tag' }
+1052 silly mapToRegistry uri http://34.206.52.14:4873/fast-levenshtein
+1053 verbose request uri http://34.206.52.14:4873/deep-is
+1054 verbose request no auth needed
+1055 info attempt registry request try #1 at 10:45:27 PM
+1056 verbose request using bearer token for auth
+1057 verbose etag "42c59b2c4e3ea52aef285edf73065493"
+1058 http request GET http://34.206.52.14:4873/deep-is
+1059 verbose request uri http://34.206.52.14:4873/prelude-ls
+1060 verbose request no auth needed
+1061 info attempt registry request try #1 at 10:45:27 PM
+1062 verbose request using bearer token for auth
+1063 verbose etag "12a311e9e6174382fe127c7453c8c9c2"
+1064 http request GET http://34.206.52.14:4873/prelude-ls
+1065 verbose request uri http://34.206.52.14:4873/type-check
+1066 verbose request no auth needed
+1067 info attempt registry request try #1 at 10:45:27 PM
+1068 verbose request using bearer token for auth
+1069 verbose etag "e46d4b305718fdbc72c5b80ee4a93dcf"
+1070 http request GET http://34.206.52.14:4873/type-check
+1071 verbose request uri http://34.206.52.14:4873/wordwrap
+1072 verbose request no auth needed
+1073 info attempt registry request try #1 at 10:45:27 PM
+1074 verbose request using bearer token for auth
+1075 verbose etag "4e85db588133afacc8e7ec436b07d27d"
+1076 http request GET http://34.206.52.14:4873/wordwrap
+1077 verbose request uri http://34.206.52.14:4873/levn
+1078 verbose request no auth needed
+1079 info attempt registry request try #1 at 10:45:27 PM
+1080 verbose request using bearer token for auth
+1081 verbose etag "074880115ab06edc1ebc96639654dfcf"
+1082 http request GET http://34.206.52.14:4873/levn
+1083 verbose request uri http://34.206.52.14:4873/fast-levenshtein
+1084 verbose request no auth needed
+1085 info attempt registry request try #1 at 10:45:27 PM
+1086 verbose request using bearer token for auth
+1087 verbose etag "aa7779ba67f5990a02031c1b56bb192f"
+1088 http request GET http://34.206.52.14:4873/fast-levenshtein
+1089 http 304 http://34.206.52.14:4873/prelude-ls
+1090 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1090 verbose headers   etag: '"12a311e9e6174382fe127c7453c8c9c2"',
+1090 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1090 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1090 verbose headers   connection: 'keep-alive' }
+1091 silly get cb [ 304,
+1091 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1091 silly get     etag: '"12a311e9e6174382fe127c7453c8c9c2"',
+1091 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1091 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1091 silly get     connection: 'keep-alive' } ]
+1092 verbose etag http://34.206.52.14:4873/prelude-ls from cache
+1093 verbose get saving prelude-ls to /Users/brian/.npm/34.206.52.14_4873/prelude-ls/.cache.json
+1094 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1095 http 304 http://34.206.52.14:4873/deep-is
+1096 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1096 verbose headers   etag: '"42c59b2c4e3ea52aef285edf73065493"',
+1096 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1096 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1096 verbose headers   connection: 'keep-alive' }
+1097 silly get cb [ 304,
+1097 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1097 silly get     etag: '"42c59b2c4e3ea52aef285edf73065493"',
+1097 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1097 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1097 silly get     connection: 'keep-alive' } ]
+1098 verbose etag http://34.206.52.14:4873/deep-is from cache
+1099 verbose get saving deep-is to /Users/brian/.npm/34.206.52.14_4873/deep-is/.cache.json
+1100 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1101 silly resolveWithNewModule prelude-ls@1.1.2 checking installable status
+1102 silly cache add args [ 'prelude-ls@~1.1.2', null ]
+1103 verbose cache add spec prelude-ls@~1.1.2
+1104 silly cache add parsed spec Result {
+1104 silly cache add   raw: 'prelude-ls@~1.1.2',
+1104 silly cache add   scope: null,
+1104 silly cache add   escapedName: 'prelude-ls',
+1104 silly cache add   name: 'prelude-ls',
+1104 silly cache add   rawSpec: '~1.1.2',
+1104 silly cache add   spec: '>=1.1.2 <1.2.0',
+1104 silly cache add   type: 'range' }
+1105 silly addNamed prelude-ls@>=1.1.2 <1.2.0
+1106 verbose addNamed ">=1.1.2 <1.2.0" is a valid semver range for prelude-ls
+1107 silly addNameRange { name: 'prelude-ls', range: '>=1.1.2 <1.2.0', hasData: false }
+1108 silly mapToRegistry name prelude-ls
+1109 silly mapToRegistry using default registry
+1110 silly mapToRegistry registry http://34.206.52.14:4873/
+1111 silly mapToRegistry data Result {
+1111 silly mapToRegistry   raw: 'prelude-ls',
+1111 silly mapToRegistry   scope: null,
+1111 silly mapToRegistry   escapedName: 'prelude-ls',
+1111 silly mapToRegistry   name: 'prelude-ls',
+1111 silly mapToRegistry   rawSpec: '',
+1111 silly mapToRegistry   spec: 'latest',
+1111 silly mapToRegistry   type: 'tag' }
+1112 silly mapToRegistry uri http://34.206.52.14:4873/prelude-ls
+1113 verbose addNameRange registry:http://34.206.52.14:4873/prelude-ls not in flight; fetching
+1114 silly resolveWithNewModule deep-is@0.1.3 checking installable status
+1115 silly cache add args [ 'deep-is@~0.1.3', null ]
+1116 verbose cache add spec deep-is@~0.1.3
+1117 silly cache add parsed spec Result {
+1117 silly cache add   raw: 'deep-is@~0.1.3',
+1117 silly cache add   scope: null,
+1117 silly cache add   escapedName: 'deep-is',
+1117 silly cache add   name: 'deep-is',
+1117 silly cache add   rawSpec: '~0.1.3',
+1117 silly cache add   spec: '>=0.1.3 <0.2.0',
+1117 silly cache add   type: 'range' }
+1118 silly addNamed deep-is@>=0.1.3 <0.2.0
+1119 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for deep-is
+1120 silly addNameRange { name: 'deep-is', range: '>=0.1.3 <0.2.0', hasData: false }
+1121 silly mapToRegistry name deep-is
+1122 silly mapToRegistry using default registry
+1123 silly mapToRegistry registry http://34.206.52.14:4873/
+1124 silly mapToRegistry data Result {
+1124 silly mapToRegistry   raw: 'deep-is',
+1124 silly mapToRegistry   scope: null,
+1124 silly mapToRegistry   escapedName: 'deep-is',
+1124 silly mapToRegistry   name: 'deep-is',
+1124 silly mapToRegistry   rawSpec: '',
+1124 silly mapToRegistry   spec: 'latest',
+1124 silly mapToRegistry   type: 'tag' }
+1125 silly mapToRegistry uri http://34.206.52.14:4873/deep-is
+1126 verbose addNameRange registry:http://34.206.52.14:4873/deep-is not in flight; fetching
+1127 verbose get http://34.206.52.14:4873/prelude-ls not expired, no request
+1128 silly addNameRange number 2 { name: 'prelude-ls', range: '>=1.1.2 <1.2.0', hasData: true }
+1129 silly addNameRange versions [ 'prelude-ls',
+1129 silly addNameRange   [ '0.2.0',
+1129 silly addNameRange     '0.3.0',
+1129 silly addNameRange     '0.4.0',
+1129 silly addNameRange     '0.5.0',
+1129 silly addNameRange     '0.6.0',
+1129 silly addNameRange     '1.0.0',
+1129 silly addNameRange     '1.0.1',
+1129 silly addNameRange     '1.0.2',
+1129 silly addNameRange     '1.0.3',
+1129 silly addNameRange     '1.1.0',
+1129 silly addNameRange     '1.1.1',
+1129 silly addNameRange     '1.1.2' ] ]
+1130 silly addNamed prelude-ls@1.1.2
+1131 verbose addNamed "1.1.2" is a plain semver version for prelude-ls
+1132 verbose get http://34.206.52.14:4873/deep-is not expired, no request
+1133 silly addNameRange number 2 { name: 'deep-is', range: '>=0.1.3 <0.2.0', hasData: true }
+1134 silly addNameRange versions [ 'deep-is', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+1135 silly addNamed deep-is@0.1.3
+1136 verbose addNamed "0.1.3" is a plain semver version for deep-is
+1137 silly cache afterAdd prelude-ls@1.1.2
+1138 verbose afterAdd /Users/brian/.npm/prelude-ls/1.1.2/package/package.json not in flight; writing
+1139 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1140 silly cache afterAdd deep-is@0.1.3
+1141 verbose afterAdd /Users/brian/.npm/deep-is/0.1.3/package/package.json not in flight; writing
+1142 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1143 verbose afterAdd /Users/brian/.npm/deep-is/0.1.3/package/package.json written
+1144 verbose afterAdd /Users/brian/.npm/prelude-ls/1.1.2/package/package.json written
+1145 http 304 http://34.206.52.14:4873/wordwrap
+1146 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1146 verbose headers   etag: '"4e85db588133afacc8e7ec436b07d27d"',
+1146 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1146 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1146 verbose headers   connection: 'keep-alive' }
+1147 silly get cb [ 304,
+1147 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1147 silly get     etag: '"4e85db588133afacc8e7ec436b07d27d"',
+1147 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1147 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1147 silly get     connection: 'keep-alive' } ]
+1148 verbose etag http://34.206.52.14:4873/wordwrap from cache
+1149 verbose get saving wordwrap to /Users/brian/.npm/34.206.52.14_4873/wordwrap/.cache.json
+1150 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1151 http 304 http://34.206.52.14:4873/levn
+1152 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1152 verbose headers   etag: '"074880115ab06edc1ebc96639654dfcf"',
+1152 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1152 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1152 verbose headers   connection: 'keep-alive' }
+1153 silly get cb [ 304,
+1153 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1153 silly get     etag: '"074880115ab06edc1ebc96639654dfcf"',
+1153 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1153 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1153 silly get     connection: 'keep-alive' } ]
+1154 verbose etag http://34.206.52.14:4873/levn from cache
+1155 verbose get saving levn to /Users/brian/.npm/34.206.52.14_4873/levn/.cache.json
+1156 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1157 silly resolveWithNewModule wordwrap@1.0.0 checking installable status
+1158 silly cache add args [ 'wordwrap@~1.0.0', null ]
+1159 verbose cache add spec wordwrap@~1.0.0
+1160 silly cache add parsed spec Result {
+1160 silly cache add   raw: 'wordwrap@~1.0.0',
+1160 silly cache add   scope: null,
+1160 silly cache add   escapedName: 'wordwrap',
+1160 silly cache add   name: 'wordwrap',
+1160 silly cache add   rawSpec: '~1.0.0',
+1160 silly cache add   spec: '>=1.0.0 <1.1.0',
+1160 silly cache add   type: 'range' }
+1161 silly addNamed wordwrap@>=1.0.0 <1.1.0
+1162 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for wordwrap
+1163 silly addNameRange { name: 'wordwrap', range: '>=1.0.0 <1.1.0', hasData: false }
+1164 silly mapToRegistry name wordwrap
+1165 silly mapToRegistry using default registry
+1166 silly mapToRegistry registry http://34.206.52.14:4873/
+1167 silly mapToRegistry data Result {
+1167 silly mapToRegistry   raw: 'wordwrap',
+1167 silly mapToRegistry   scope: null,
+1167 silly mapToRegistry   escapedName: 'wordwrap',
+1167 silly mapToRegistry   name: 'wordwrap',
+1167 silly mapToRegistry   rawSpec: '',
+1167 silly mapToRegistry   spec: 'latest',
+1167 silly mapToRegistry   type: 'tag' }
+1168 silly mapToRegistry uri http://34.206.52.14:4873/wordwrap
+1169 verbose addNameRange registry:http://34.206.52.14:4873/wordwrap not in flight; fetching
+1170 verbose get http://34.206.52.14:4873/wordwrap not expired, no request
+1171 silly addNameRange number 2 { name: 'wordwrap', range: '>=1.0.0 <1.1.0', hasData: true }
+1172 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+1173 silly addNamed wordwrap@1.0.0
+1174 verbose addNamed "1.0.0" is a plain semver version for wordwrap
+1175 silly resolveWithNewModule levn@0.3.0 checking installable status
+1176 silly cache add args [ 'levn@~0.3.0', null ]
+1177 verbose cache add spec levn@~0.3.0
+1178 silly cache add parsed spec Result {
+1178 silly cache add   raw: 'levn@~0.3.0',
+1178 silly cache add   scope: null,
+1178 silly cache add   escapedName: 'levn',
+1178 silly cache add   name: 'levn',
+1178 silly cache add   rawSpec: '~0.3.0',
+1178 silly cache add   spec: '>=0.3.0 <0.4.0',
+1178 silly cache add   type: 'range' }
+1179 silly addNamed levn@>=0.3.0 <0.4.0
+1180 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for levn
+1181 silly addNameRange { name: 'levn', range: '>=0.3.0 <0.4.0', hasData: false }
+1182 silly mapToRegistry name levn
+1183 silly mapToRegistry using default registry
+1184 silly mapToRegistry registry http://34.206.52.14:4873/
+1185 silly mapToRegistry data Result {
+1185 silly mapToRegistry   raw: 'levn',
+1185 silly mapToRegistry   scope: null,
+1185 silly mapToRegistry   escapedName: 'levn',
+1185 silly mapToRegistry   name: 'levn',
+1185 silly mapToRegistry   rawSpec: '',
+1185 silly mapToRegistry   spec: 'latest',
+1185 silly mapToRegistry   type: 'tag' }
+1186 silly mapToRegistry uri http://34.206.52.14:4873/levn
+1187 verbose addNameRange registry:http://34.206.52.14:4873/levn not in flight; fetching
+1188 silly cache afterAdd wordwrap@1.0.0
+1189 verbose afterAdd /Users/brian/.npm/wordwrap/1.0.0/package/package.json not in flight; writing
+1190 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1191 verbose get http://34.206.52.14:4873/levn not expired, no request
+1192 silly addNameRange number 2 { name: 'levn', range: '>=0.3.0 <0.4.0', hasData: true }
+1193 silly addNameRange versions [ 'levn',
+1193 silly addNameRange   [ '0.1.0',
+1193 silly addNameRange     '0.2.0',
+1193 silly addNameRange     '0.2.1',
+1193 silly addNameRange     '0.2.2',
+1193 silly addNameRange     '0.2.3',
+1193 silly addNameRange     '0.2.4',
+1193 silly addNameRange     '0.2.5',
+1193 silly addNameRange     '0.3.0' ] ]
+1194 silly addNamed levn@0.3.0
+1195 verbose addNamed "0.3.0" is a plain semver version for levn
+1196 silly cache afterAdd levn@0.3.0
+1197 verbose afterAdd /Users/brian/.npm/levn/0.3.0/package/package.json not in flight; writing
+1198 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1199 verbose afterAdd /Users/brian/.npm/wordwrap/1.0.0/package/package.json written
+1200 verbose afterAdd /Users/brian/.npm/levn/0.3.0/package/package.json written
+1201 http 304 http://34.206.52.14:4873/type-check
+1202 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1202 verbose headers   etag: '"e46d4b305718fdbc72c5b80ee4a93dcf"',
+1202 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1202 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1202 verbose headers   connection: 'keep-alive' }
+1203 silly get cb [ 304,
+1203 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1203 silly get     etag: '"e46d4b305718fdbc72c5b80ee4a93dcf"',
+1203 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1203 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1203 silly get     connection: 'keep-alive' } ]
+1204 verbose etag http://34.206.52.14:4873/type-check from cache
+1205 verbose get saving type-check to /Users/brian/.npm/34.206.52.14_4873/type-check/.cache.json
+1206 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1207 http 304 http://34.206.52.14:4873/fast-levenshtein
+1208 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1208 verbose headers   etag: '"aa7779ba67f5990a02031c1b56bb192f"',
+1208 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1208 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1208 verbose headers   connection: 'keep-alive' }
+1209 silly get cb [ 304,
+1209 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1209 silly get     etag: '"aa7779ba67f5990a02031c1b56bb192f"',
+1209 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1209 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1209 silly get     connection: 'keep-alive' } ]
+1210 verbose etag http://34.206.52.14:4873/fast-levenshtein from cache
+1211 verbose get saving fast-levenshtein to /Users/brian/.npm/34.206.52.14_4873/fast-levenshtein/.cache.json
+1212 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1213 silly resolveWithNewModule type-check@0.3.2 checking installable status
+1214 silly cache add args [ 'type-check@~0.3.2', null ]
+1215 verbose cache add spec type-check@~0.3.2
+1216 silly cache add parsed spec Result {
+1216 silly cache add   raw: 'type-check@~0.3.2',
+1216 silly cache add   scope: null,
+1216 silly cache add   escapedName: 'type-check',
+1216 silly cache add   name: 'type-check',
+1216 silly cache add   rawSpec: '~0.3.2',
+1216 silly cache add   spec: '>=0.3.2 <0.4.0',
+1216 silly cache add   type: 'range' }
+1217 silly addNamed type-check@>=0.3.2 <0.4.0
+1218 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for type-check
+1219 silly addNameRange { name: 'type-check', range: '>=0.3.2 <0.4.0', hasData: false }
+1220 silly mapToRegistry name type-check
+1221 silly mapToRegistry using default registry
+1222 silly mapToRegistry registry http://34.206.52.14:4873/
+1223 silly mapToRegistry data Result {
+1223 silly mapToRegistry   raw: 'type-check',
+1223 silly mapToRegistry   scope: null,
+1223 silly mapToRegistry   escapedName: 'type-check',
+1223 silly mapToRegistry   name: 'type-check',
+1223 silly mapToRegistry   rawSpec: '',
+1223 silly mapToRegistry   spec: 'latest',
+1223 silly mapToRegistry   type: 'tag' }
+1224 silly mapToRegistry uri http://34.206.52.14:4873/type-check
+1225 verbose addNameRange registry:http://34.206.52.14:4873/type-check not in flight; fetching
+1226 silly resolveWithNewModule fast-levenshtein@2.0.6 checking installable status
+1227 silly cache add args [ 'fast-levenshtein@~2.0.4', null ]
+1228 verbose cache add spec fast-levenshtein@~2.0.4
+1229 silly cache add parsed spec Result {
+1229 silly cache add   raw: 'fast-levenshtein@~2.0.4',
+1229 silly cache add   scope: null,
+1229 silly cache add   escapedName: 'fast-levenshtein',
+1229 silly cache add   name: 'fast-levenshtein',
+1229 silly cache add   rawSpec: '~2.0.4',
+1229 silly cache add   spec: '>=2.0.4 <2.1.0',
+1229 silly cache add   type: 'range' }
+1230 silly addNamed fast-levenshtein@>=2.0.4 <2.1.0
+1231 verbose addNamed ">=2.0.4 <2.1.0" is a valid semver range for fast-levenshtein
+1232 silly addNameRange { name: 'fast-levenshtein',
+1232 silly addNameRange   range: '>=2.0.4 <2.1.0',
+1232 silly addNameRange   hasData: false }
+1233 silly mapToRegistry name fast-levenshtein
+1234 silly mapToRegistry using default registry
+1235 silly mapToRegistry registry http://34.206.52.14:4873/
+1236 silly mapToRegistry data Result {
+1236 silly mapToRegistry   raw: 'fast-levenshtein',
+1236 silly mapToRegistry   scope: null,
+1236 silly mapToRegistry   escapedName: 'fast-levenshtein',
+1236 silly mapToRegistry   name: 'fast-levenshtein',
+1236 silly mapToRegistry   rawSpec: '',
+1236 silly mapToRegistry   spec: 'latest',
+1236 silly mapToRegistry   type: 'tag' }
+1237 silly mapToRegistry uri http://34.206.52.14:4873/fast-levenshtein
+1238 verbose addNameRange registry:http://34.206.52.14:4873/fast-levenshtein not in flight; fetching
+1239 verbose get http://34.206.52.14:4873/type-check not expired, no request
+1240 silly addNameRange number 2 { name: 'type-check', range: '>=0.3.2 <0.4.0', hasData: true }
+1241 silly addNameRange versions [ 'type-check',
+1241 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.0', '0.3.1', '0.3.2' ] ]
+1242 silly addNamed type-check@0.3.2
+1243 verbose addNamed "0.3.2" is a plain semver version for type-check
+1244 verbose get http://34.206.52.14:4873/fast-levenshtein not expired, no request
+1245 silly addNameRange number 2 { name: 'fast-levenshtein',
+1245 silly addNameRange   range: '>=2.0.4 <2.1.0',
+1245 silly addNameRange   hasData: true }
+1246 silly addNameRange versions [ 'fast-levenshtein',
+1246 silly addNameRange   [ '1.0.0',
+1246 silly addNameRange     '1.0.1',
+1246 silly addNameRange     '1.0.2',
+1246 silly addNameRange     '1.0.3',
+1246 silly addNameRange     '1.0.4',
+1246 silly addNameRange     '1.0.5',
+1246 silly addNameRange     '1.0.6',
+1246 silly addNameRange     '1.0.7',
+1246 silly addNameRange     '1.1.0',
+1246 silly addNameRange     '1.1.2',
+1246 silly addNameRange     '1.1.3',
+1246 silly addNameRange     '1.1.4',
+1246 silly addNameRange     '2.0.0',
+1246 silly addNameRange     '2.0.1',
+1246 silly addNameRange     '2.0.2',
+1246 silly addNameRange     '2.0.3',
+1246 silly addNameRange     '2.0.4',
+1246 silly addNameRange     '2.0.5',
+1246 silly addNameRange     '2.0.6' ] ]
+1247 silly addNamed fast-levenshtein@2.0.6
+1248 verbose addNamed "2.0.6" is a plain semver version for fast-levenshtein
+1249 silly cache afterAdd type-check@0.3.2
+1250 verbose afterAdd /Users/brian/.npm/type-check/0.3.2/package/package.json not in flight; writing
+1251 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1252 silly cache afterAdd fast-levenshtein@2.0.6
+1253 verbose afterAdd /Users/brian/.npm/fast-levenshtein/2.0.6/package/package.json not in flight; writing
+1254 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1255 verbose afterAdd /Users/brian/.npm/type-check/0.3.2/package/package.json written
+1256 verbose afterAdd /Users/brian/.npm/fast-levenshtein/2.0.6/package/package.json written
+1257 silly fetchNamedPackageData amdefine
+1258 silly mapToRegistry name amdefine
+1259 silly mapToRegistry using default registry
+1260 silly mapToRegistry registry http://34.206.52.14:4873/
+1261 silly mapToRegistry data Result {
+1261 silly mapToRegistry   raw: 'amdefine',
+1261 silly mapToRegistry   scope: null,
+1261 silly mapToRegistry   escapedName: 'amdefine',
+1261 silly mapToRegistry   name: 'amdefine',
+1261 silly mapToRegistry   rawSpec: '',
+1261 silly mapToRegistry   spec: 'latest',
+1261 silly mapToRegistry   type: 'tag' }
+1262 silly mapToRegistry uri http://34.206.52.14:4873/amdefine
+1263 verbose request uri http://34.206.52.14:4873/amdefine
+1264 verbose request no auth needed
+1265 info attempt registry request try #1 at 10:45:27 PM
+1266 verbose request using bearer token for auth
+1267 verbose etag "50ad78ba13b4f8018d7febbc87310179"
+1268 http request GET http://34.206.52.14:4873/amdefine
+1269 http 304 http://34.206.52.14:4873/amdefine
+1270 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1270 verbose headers   etag: '"50ad78ba13b4f8018d7febbc87310179"',
+1270 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1270 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1270 verbose headers   connection: 'keep-alive' }
+1271 silly get cb [ 304,
+1271 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1271 silly get     etag: '"50ad78ba13b4f8018d7febbc87310179"',
+1271 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1271 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1271 silly get     connection: 'keep-alive' } ]
+1272 verbose etag http://34.206.52.14:4873/amdefine from cache
+1273 verbose get saving amdefine to /Users/brian/.npm/34.206.52.14_4873/amdefine/.cache.json
+1274 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1275 silly resolveWithNewModule amdefine@1.0.1 checking installable status
+1276 silly cache add args [ 'amdefine@>=0.0.4', null ]
+1277 verbose cache add spec amdefine@>=0.0.4
+1278 silly cache add parsed spec Result {
+1278 silly cache add   raw: 'amdefine@>=0.0.4',
+1278 silly cache add   scope: null,
+1278 silly cache add   escapedName: 'amdefine',
+1278 silly cache add   name: 'amdefine',
+1278 silly cache add   rawSpec: '>=0.0.4',
+1278 silly cache add   spec: '>=0.0.4',
+1278 silly cache add   type: 'range' }
+1279 silly addNamed amdefine@>=0.0.4
+1280 verbose addNamed ">=0.0.4" is a valid semver range for amdefine
+1281 silly addNameRange { name: 'amdefine', range: '>=0.0.4', hasData: false }
+1282 silly mapToRegistry name amdefine
+1283 silly mapToRegistry using default registry
+1284 silly mapToRegistry registry http://34.206.52.14:4873/
+1285 silly mapToRegistry data Result {
+1285 silly mapToRegistry   raw: 'amdefine',
+1285 silly mapToRegistry   scope: null,
+1285 silly mapToRegistry   escapedName: 'amdefine',
+1285 silly mapToRegistry   name: 'amdefine',
+1285 silly mapToRegistry   rawSpec: '',
+1285 silly mapToRegistry   spec: 'latest',
+1285 silly mapToRegistry   type: 'tag' }
+1286 silly mapToRegistry uri http://34.206.52.14:4873/amdefine
+1287 verbose addNameRange registry:http://34.206.52.14:4873/amdefine not in flight; fetching
+1288 verbose get http://34.206.52.14:4873/amdefine not expired, no request
+1289 silly addNameRange number 2 { name: 'amdefine', range: '>=0.0.4', hasData: true }
+1290 silly addNameRange versions [ 'amdefine',
+1290 silly addNameRange   [ '0.0.1',
+1290 silly addNameRange     '0.0.2',
+1290 silly addNameRange     '0.0.3',
+1290 silly addNameRange     '0.0.4',
+1290 silly addNameRange     '0.0.5',
+1290 silly addNameRange     '0.0.6',
+1290 silly addNameRange     '0.0.7',
+1290 silly addNameRange     '0.0.8',
+1290 silly addNameRange     '0.1.0',
+1290 silly addNameRange     '0.1.1',
+1290 silly addNameRange     '1.0.0',
+1290 silly addNameRange     '1.0.1' ] ]
+1291 silly addNamed amdefine@1.0.1
+1292 verbose addNamed "1.0.1" is a plain semver version for amdefine
+1293 silly cache afterAdd amdefine@1.0.1
+1294 verbose afterAdd /Users/brian/.npm/amdefine/1.0.1/package/package.json not in flight; writing
+1295 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1296 verbose afterAdd /Users/brian/.npm/amdefine/1.0.1/package/package.json written
+1297 silly fetchNamedPackageData iconv-lite
+1298 silly mapToRegistry name iconv-lite
+1299 silly mapToRegistry using default registry
+1300 silly mapToRegistry registry http://34.206.52.14:4873/
+1301 silly mapToRegistry data Result {
+1301 silly mapToRegistry   raw: 'iconv-lite',
+1301 silly mapToRegistry   scope: null,
+1301 silly mapToRegistry   escapedName: 'iconv-lite',
+1301 silly mapToRegistry   name: 'iconv-lite',
+1301 silly mapToRegistry   rawSpec: '',
+1301 silly mapToRegistry   spec: 'latest',
+1301 silly mapToRegistry   type: 'tag' }
+1302 silly mapToRegistry uri http://34.206.52.14:4873/iconv-lite
+1303 verbose request uri http://34.206.52.14:4873/iconv-lite
+1304 verbose request no auth needed
+1305 info attempt registry request try #1 at 10:45:27 PM
+1306 verbose request using bearer token for auth
+1307 verbose etag "7c8d630de5cb8981d20b7cb406e62aeb"
+1308 http request GET http://34.206.52.14:4873/iconv-lite
+1309 http 304 http://34.206.52.14:4873/iconv-lite
+1310 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1310 verbose headers   etag: '"7c8d630de5cb8981d20b7cb406e62aeb"',
+1310 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1310 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1310 verbose headers   connection: 'keep-alive' }
+1311 silly get cb [ 304,
+1311 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1311 silly get     etag: '"7c8d630de5cb8981d20b7cb406e62aeb"',
+1311 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+1311 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1311 silly get     connection: 'keep-alive' } ]
+1312 verbose etag http://34.206.52.14:4873/iconv-lite from cache
+1313 verbose get saving iconv-lite to /Users/brian/.npm/34.206.52.14_4873/iconv-lite/.cache.json
+1314 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1315 silly resolveWithNewModule iconv-lite@0.4.13 checking installable status
+1316 silly cache add args [ 'iconv-lite@0.4.13', null ]
+1317 verbose cache add spec iconv-lite@0.4.13
+1318 silly cache add parsed spec Result {
+1318 silly cache add   raw: 'iconv-lite@0.4.13',
+1318 silly cache add   scope: null,
+1318 silly cache add   escapedName: 'iconv-lite',
+1318 silly cache add   name: 'iconv-lite',
+1318 silly cache add   rawSpec: '0.4.13',
+1318 silly cache add   spec: '0.4.13',
+1318 silly cache add   type: 'version' }
+1319 silly addNamed iconv-lite@0.4.13
+1320 verbose addNamed "0.4.13" is a plain semver version for iconv-lite
+1321 silly mapToRegistry name iconv-lite
+1322 silly mapToRegistry using default registry
+1323 silly mapToRegistry registry http://34.206.52.14:4873/
+1324 silly mapToRegistry data Result {
+1324 silly mapToRegistry   raw: 'iconv-lite',
+1324 silly mapToRegistry   scope: null,
+1324 silly mapToRegistry   escapedName: 'iconv-lite',
+1324 silly mapToRegistry   name: 'iconv-lite',
+1324 silly mapToRegistry   rawSpec: '',
+1324 silly mapToRegistry   spec: 'latest',
+1324 silly mapToRegistry   type: 'tag' }
+1325 silly mapToRegistry uri http://34.206.52.14:4873/iconv-lite
+1326 verbose addNameVersion registry:http://34.206.52.14:4873/iconv-lite not in flight; fetching
+1327 verbose get http://34.206.52.14:4873/iconv-lite not expired, no request
+1328 silly cache afterAdd iconv-lite@0.4.13
+1329 verbose afterAdd /Users/brian/.npm/iconv-lite/0.4.13/package/package.json not in flight; writing
+1330 verbose correctMkdir /Users/brian/.npm correctMkdir not in flight; initializing
+1331 verbose afterAdd /Users/brian/.npm/iconv-lite/0.4.13/package/package.json written
+1332 silly fetchNamedPackageData @types/node
+1333 silly mapToRegistry name @types/node
+1334 silly mapToRegistry scope (from package name) @types
+1335 verbose mapToRegistry no registry URL found in name for scope @types
+1336 silly mapToRegistry using default registry
+1337 silly mapToRegistry registry http://34.206.52.14:4873/
+1338 silly mapToRegistry data Result {
+1338 silly mapToRegistry   raw: '@types/node',
+1338 silly mapToRegistry   scope: '@types',
+1338 silly mapToRegistry   escapedName: '@types%2fnode',
+1338 silly mapToRegistry   name: '@types/node',
+1338 silly mapToRegistry   rawSpec: '',
+1338 silly mapToRegistry   spec: 'latest',
+1338 silly mapToRegistry   type: 'tag' }
+1339 silly mapToRegistry uri http://34.206.52.14:4873/@types%2fnode
+1340 verbose request uri http://34.206.52.14:4873/@types%2fnode
+1341 verbose request no auth needed
+1342 info attempt registry request try #1 at 10:45:27 PM
+1343 verbose request using bearer token for auth
+1344 http request GET http://34.206.52.14:4873/@types%2fnode
+1345 http 404 http://34.206.52.14:4873/@types%2fnode
+1346 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+1346 verbose headers   'content-type': 'application/json; charset=utf-8',
+1346 verbose headers   'content-length': '43',
+1346 verbose headers   etag: 'W/"2b-d418f262"',
+1346 verbose headers   vary: 'Accept-Encoding',
+1346 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6juR',
+1346 verbose headers   date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1346 verbose headers   connection: 'keep-alive' }
+1347 silly get cb [ 404,
+1347 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+1347 silly get     'content-type': 'application/json; charset=utf-8',
+1347 silly get     'content-length': '43',
+1347 silly get     etag: 'W/"2b-d418f262"',
+1347 silly get     vary: 'Accept-Encoding',
+1347 silly get     'x-status-cat': 'http://flic.kr/p/aV6juR',
+1347 silly get     date: 'Sun, 23 Jul 2017 02:45:29 GMT',
+1347 silly get     connection: 'keep-alive' } ]
+1348 silly fetchPackageMetaData Error: no such package available : @types/node
+1348 silly fetchPackageMetaData     at makeError (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+1348 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+1348 silly fetchPackageMetaData     at Request._callback (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+1348 silly fetchPackageMetaData     at Request.self.callback (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+1348 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+1348 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+1348 silly fetchPackageMetaData     at Request.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+1348 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+1348 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+1348 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:969:12)
+1348 silly fetchPackageMetaData  error for @types/node@^6.0.46 { Error: no such package available : @types/node
+1348 silly fetchPackageMetaData     at makeError (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+1348 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+1348 silly fetchPackageMetaData     at Request._callback (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+1348 silly fetchPackageMetaData     at Request.self.callback (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+1348 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+1348 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+1348 silly fetchPackageMetaData     at Request.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+1348 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+1348 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+1348 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: '@types/node', statusCode: 404, code: 'E404' }
+1349 silly rollbackFailedOptional Starting
+1350 silly rollbackFailedOptional Finishing
+1351 silly runTopLevelLifecycles Finishing
+1352 silly install printInstalled
+1353 verbose stack Error: no such package available : @types/node
+1353 verbose stack     at makeError (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+1353 verbose stack     at CachingRegistryClient.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+1353 verbose stack     at Request._callback (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+1353 verbose stack     at Request.self.callback (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+1353 verbose stack     at emitTwo (events.js:106:13)
+1353 verbose stack     at Request.emit (events.js:191:7)
+1353 verbose stack     at Request.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+1353 verbose stack     at emitOne (events.js:96:13)
+1353 verbose stack     at Request.emit (events.js:188:7)
+1353 verbose stack     at IncomingMessage.<anonymous> (/Users/brian/.nvm/versions/node/v6.11.1/lib/node_modules/npm/node_modules/request/request.js:969:12)
+1354 verbose statusCode 404
+1355 verbose pkgid @types/node
+1356 verbose cwd /Users/brian/Documents/bootcamp/homework/liri-node-app
+1357 error Darwin 16.5.0
+1358 error argv "/Users/brian/.nvm/versions/node/v6.11.1/bin/node" "/Users/brian/.nvm/versions/node/v6.11.1/bin/npm" "install" "jsdom"
+1359 error node v6.11.1
+1360 error npm  v3.10.10
+1361 error code E404
+1362 error 404 no such package available : @types/node
+1363 error 404
+1364 error 404 '@types/node' is not in the npm registry.
+1365 error 404 You should bug the author to publish it (or use the name yourself!)
+1366 error 404 It was specified as a dependency of 'parse5'
+1367 error 404 Note that you can also install from a
+1368 error 404 tarball, folder, http url, or git url.
+1369 verbose exit [ 1, true ]
