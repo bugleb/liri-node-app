@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bugleb/liri-node-app#readme",
   "dependencies": {
-    "twitter": "^1.7.1"
+    "node-spotify-api": "^1.0.5",
+    "twitter": "^1.7.1",
   }
 }
